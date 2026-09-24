@@ -106,7 +106,8 @@ def main():
         if len(s) >= MIN_PRESET:
             presets.append({"id": pid, "title": [ru, en], "tags": tags, "count": len(s)})
     index = {
-        "version": 1, "updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),  # со временем: за день лента может пересобираться не раз "count": len(order), "shard": SHARD,
+        # время в метке: за день лента может пересобираться не раз, и клиент должен это заметить
+        "version": 1, "updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), "count": len(order), "shard": SHARD,
         "art": len(art), "photo": len(photo),
         "groups": [{"id": g, "title": t} for g, t in GROUPS.items()],
         "tags": [{"id": tid, "group": g, "title": [ru, en], "count": len(tag_ids[tid])} for g, tid, ru, en in TAGS if tag_ids[tid]],
