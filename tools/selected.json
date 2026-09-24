@@ -1,0 +1,776 @@
+{
+ "birds": [
+  {
+   "title": "File:Carolina Parrot (Audubon).jpg",
+   "w": 1733,
+   "h": 2381,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Carolina_Parrot_%28Audubon%29.jpg/330px-Carolina_Parrot_%28Audubon%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, American Flamingo, 1838, NGA 32572.jpg",
+   "w": 2712,
+   "h": 4000,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Robert_Havell_after_John_James_Audubon%2C_American_Flamingo%2C_1838%2C_NGA_32572.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_American_Flamingo%2C_1838%2C_NGA_32572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, Snowy Owl, 1831, NGA 32262.jpg",
+   "w": 2567,
+   "h": 4000,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Robert_Havell_after_John_James_Audubon%2C_Snowy_Owl%2C_1831%2C_NGA_32262.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_Snowy_Owl%2C_1831%2C_NGA_32262.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, Roseate Spoonbill, 1836, NGA 32462.jpg",
+   "w": 4000,
+   "h": 2663,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Robert_Havell_after_John_James_Audubon%2C_Roseate_Spoonbill%2C_1836%2C_NGA_32462.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_Roseate_Spoonbill%2C_1836%2C_NGA_32462.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, Blue Jay, 1831, NGA 32243.jpg",
+   "w": 3263,
+   "h": 4000,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Robert_Havell_after_John_James_Audubon%2C_Blue_Jay%2C_1831%2C_NGA_32243.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_Blue_Jay%2C_1831%2C_NGA_32243.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Wild Turkey (Audubon).jpg",
+   "w": 1928,
+   "h": 1312,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Wild_Turkey_%28Audubon%29.jpg/330px-Wild_Turkey_%28Audubon%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, Great blue Heron, 1834, NGA 32352.jpg",
+   "w": 2683,
+   "h": 4000,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Robert_Havell_after_John_James_Audubon%2C_Great_blue_Heron%2C_1834%2C_NGA_32352.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_Great_blue_Heron%2C_1834%2C_NGA_32352.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, American White Pelican, 1836, NGA 32452.jpg",
+   "w": 2694,
+   "h": 4000,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Robert_Havell_after_John_James_Audubon%2C_American_White_Pelican%2C_1836%2C_NGA_32452.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_American_White_Pelican%2C_1836%2C_NGA_32452.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, Painted Bunting, 1829, NGA 32194.jpg",
+   "w": 2560,
+   "h": 4000,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Robert_Havell_after_John_James_Audubon%2C_Painted_Bunting%2C_1829%2C_NGA_32194.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_Painted_Bunting%2C_1829%2C_NGA_32194.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Robert Havell after John James Audubon, Mallard Duck, 1834, NGA 32359.jpg",
+   "w": 4000,
+   "h": 2666,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Robert_Havell_after_John_James_Audubon%2C_Mallard_Duck%2C_1834%2C_NGA_32359.jpg/330px-Robert_Havell_after_John_James_Audubon%2C_Mallard_Duck%2C_1834%2C_NGA_32359.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Scarlet ibis Ibis rubra, Viell. 1. Adult male. 2. Young second autumn c.1 v.4 plate 397 - DPLA - 020e2073730ff669b9c8aa5aab670466 (page 1).jpg",
+   "w": 7830,
+   "h": 5314,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Scarlet_ibis_Ibis_rubra%2C_Viell._1._Adult_male._2._Young_second_autumn_c.1_v.4_plate_397_-_DPLA_-_020e2073730ff669b9c8aa5aab670466_%28page_1%29.jpg/330px-Scarlet_ibis_Ibis_rubra%2C_Viell._1._Adult_male._2._Young_second_autumn_c.1_v.4_plate_397_-_DPLA_-_020e2073730ff669b9c8aa5aab670466_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:66 Ivory-billed Woodpecker (Duke of Portland Audubon edition).jpg",
+   "w": 2044,
+   "h": 3200,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/66_Ivory-billed_Woodpecker_%28Duke_of_Portland_Audubon_edition%29.jpg/330px-66_Ivory-billed_Woodpecker_%28Duke_of_Portland_Audubon_edition%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "botany": [
+  {
+   "title": "File:Chapuy, after Pierre- Joseph Redouté - Kamtschatka Rose (Rosa Kamtschatica), from Redouté, \" Les Roses\", Paris, 1817–1824) - Google Art Project.jpg",
+   "w": 4420,
+   "h": 5851,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Chapuy%2C_after_Pierre-_Joseph_Redout%C3%A9_-_Kamtschatka_Rose_%28Rosa_Kamtschatica%29%2C_from_Redout%C3%A9%2C_%22_Les_Roses%22%2C_Paris%2C_1817%E2%80%931824%29_-_Google_Art_Project.jpg/330px-Chapuy%2C_after_Pierre-_Joseph_Redout%C3%A9_-_Kamtschatka_Rose_%28Rosa_Kamtschatica%29%2C_from_Redout%C3%A9%2C_%22_Les_Roses%22%2C_Paris%2C_1817%E2%80%931824%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Henry Joseph Redouté - Les Roses- Rosa Damascena, subalba - 1965.291 - Cleveland Museum of Art.jpg",
+   "w": 2598,
+   "h": 3400,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Henry_Joseph_Redout%C3%A9_-_Les_Roses-_Rosa_Damascena%2C_subalba_-_1965.291_-_Cleveland_Museum_of_Art.jpg/330px-Henry_Joseph_Redout%C3%A9_-_Les_Roses-_Rosa_Damascena%2C_subalba_-_1965.291_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Redoute - Rosa centifolia foliacea.jpg",
+   "w": 1408,
+   "h": 2029,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Redoute_-_Rosa_centifolia_foliacea.jpg/330px-Redoute_-_Rosa_centifolia_foliacea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Redoute - Rosa gallica flore giganteo - brighter.jpg",
+   "w": 1391,
+   "h": 2035,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Redoute_-_Rosa_gallica_flore_giganteo_-_brighter.jpg/330px-Redoute_-_Rosa_gallica_flore_giganteo_-_brighter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Redoute - Rosa gallica pontiana.jpg",
+   "w": 1457,
+   "h": 2008,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Redoute_-_Rosa_gallica_pontiana.jpg/330px-Redoute_-_Rosa_gallica_pontiana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Redoute - Rosa gallica purpuro-violacea magna.jpg",
+   "w": 1551,
+   "h": 2008,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Redoute_-_Rosa_gallica_purpuro-violacea_magna.jpg/330px-Redoute_-_Rosa_gallica_purpuro-violacea_magna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Redoute - Rosa gallica regalis.jpg",
+   "w": 1479,
+   "h": 2118,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Redoute_-_Rosa_gallica_regalis.jpg/330px-Redoute_-_Rosa_gallica_regalis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Redoute-rosa inermis.jpg",
+   "w": 1950,
+   "h": 2800,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Redoute-rosa_inermis.jpg/330px-Redoute-rosa_inermis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Rosa Gallica Aurelianensis 001.JPG",
+   "w": 1952,
+   "h": 2517,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Rosa_Gallica_Aurelianensis_001.JPG/330px-Rosa_Gallica_Aurelianensis_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Rosa gallica aurelianensis.jpg",
+   "w": 1452,
+   "h": 1997,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Rosa_gallica_aurelianensis.jpg/330px-Rosa_gallica_aurelianensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Rosa Indica Cruenta 001.JPG",
+   "w": 1746,
+   "h": 2193,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Rosa_Indica_Cruenta_001.JPG/330px-Rosa_Indica_Cruenta_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Pierre-Joseph Redouté (French, 1759-1840) - Red Lily, plate 7 from Les Liliacées - 2020.164 - Cleveland Museum of Art.jpg",
+   "w": 2336,
+   "h": 3400,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pierre-Joseph_Redout%C3%A9_%28French%2C_1759-1840%29_-_Red_Lily%2C_plate_7_from_Les_Liliac%C3%A9es_-_2020.164_-_Cleveland_Museum_of_Art.jpg/330px-Pierre-Joseph_Redout%C3%A9_%28French%2C_1759-1840%29_-_Red_Lily%2C_plate_7_from_Les_Liliac%C3%A9es_-_2020.164_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "russian": [
+  {
+   "title": "File:1898 Vasnetsov Bogatyrs anagoria.JPG",
+   "w": 3316,
+   "h": 2132,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/1898_Vasnetsov_Bogatyrs_anagoria.JPG/330px-1898_Vasnetsov_Bogatyrs_anagoria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Viktor Vasnetsov - Аленушка - Google Art Project.jpg",
+   "w": 1440,
+   "h": 2048,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Viktor_Vasnetsov_-_%D0%90%D0%BB%D0%B5%D0%BD%D1%83%D1%88%D0%BA%D0%B0_-_Google_Art_Project.jpg/330px-Viktor_Vasnetsov_-_%D0%90%D0%BB%D0%B5%D0%BD%D1%83%D1%88%D0%BA%D0%B0_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Moscou, galerie Tretiakov Ivan-Tsarevitch at the Grey Wolf (Vasnetsov).jpg",
+   "w": 2099,
+   "h": 2761,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Moscou%2C_galerie_Tretiakov_Ivan-Tsarevitch_at_the_Grey_Wolf_%28Vasnetsov%29.jpg/330px-Moscou%2C_galerie_Tretiakov_Ivan-Tsarevitch_at_the_Grey_Wolf_%28Vasnetsov%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:RooksBackOfSavrasov.jpg",
+   "w": 1535,
+   "h": 2000,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/RooksBackOfSavrasov.jpg/330px-RooksBackOfSavrasov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Корабельная роща (Шишкин).jpg",
+   "w": 2110,
+   "h": 1357,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%D0%9A%D0%BE%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%89%D0%B0_%28%D0%A8%D0%B8%D1%88%D0%BA%D0%B8%D0%BD%29.jpg/330px-%D0%9A%D0%BE%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D1%89%D0%B0_%28%D0%A8%D0%B8%D1%88%D0%BA%D0%B8%D0%BD%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Kramskoy Portrait of a Woman.jpg",
+   "w": 2048,
+   "h": 1543,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Kramskoy_Portrait_of_a_Woman.jpg/330px-Kramskoy_Portrait_of_a_Woman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ilya Repin - Barge Haulers on the Volga - Google Art Project detail1.jpg",
+   "w": 1562,
+   "h": 1700,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Ilya_Repin_-_Barge_Haulers_on_the_Volga_-_Google_Art_Project_detail1.jpg/330px-Ilya_Repin_-_Barge_Haulers_on_the_Volga_-_Google_Art_Project_detail1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Moscow Courtyard (Polenov, 1878) - Google Art Project.jpg",
+   "w": 4000,
+   "h": 3298,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Moscow_Courtyard_%28Polenov%2C_1878%29_-_Google_Art_Project.jpg/330px-Moscow_Courtyard_%28Polenov%2C_1878%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Boris Kustodiev - Merchant's Wife at Tea - Google Art Project.jpg",
+   "w": 4560,
+   "h": 4574,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Boris_Kustodiev_-_Merchant%27s_Wife_at_Tea_-_Google_Art_Project.jpg/330px-Boris_Kustodiev_-_Merchant%27s_Wife_at_Tea_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Aivazovsky, Brig Mercury Attacked by Two Turkish Ships 1892.jpg",
+   "w": 2220,
+   "h": 1400,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Aivazovsky%2C_Brig_Mercury_Attacked_by_Two_Turkish_Ships_1892.jpg/330px-Aivazovsky%2C_Brig_Mercury_Attacked_by_Two_Turkish_Ships_1892.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Levitan nad vech pok28.jpg",
+   "w": 2000,
+   "h": 1434,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Levitan_nad_vech_pok28.jpg/330px-Levitan_nad_vech_pok28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Surikov Boyarynya Morozova study 1881 gtg.jpg",
+   "w": 2048,
+   "h": 1320,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Surikov_Boyarynya_Morozova_study_1881_gtg.jpg/330px-Surikov_Boyarynya_Morozova_study_1881_gtg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "bilibin": [
+  {
+   "title": "File:Russian Wonder Tales 081.jpg",
+   "w": 1704,
+   "h": 2156,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Russian_Wonder_Tales_081.jpg/330px-Russian_Wonder_Tales_081.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Bilibin. Baba Yaga.jpg",
+   "w": 1561,
+   "h": 2000,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Bilibin._Baba_Yaga.jpg/330px-Bilibin._Baba_Yaga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Firebird.jpg",
+   "w": 819,
+   "h": 1172,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Firebird.jpg/330px-Firebird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:The Golden Cockerel (Bilibin) 10.jpg",
+   "w": 1759,
+   "h": 1408,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/The_Golden_Cockerel_%28Bilibin%29_10.jpg/330px-The_Golden_Cockerel_%28Bilibin%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ivan Bilibin 061.jpg",
+   "w": 1308,
+   "h": 827,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ivan_Bilibin_061.jpg/330px-Ivan_Bilibin_061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ivan Bilibin Koshchey.jpg",
+   "w": 1174,
+   "h": 814,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Ivan_Bilibin_Koshchey.jpg/330px-Ivan_Bilibin_Koshchey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Russian Wonder Tales 010.jpg",
+   "w": 1714,
+   "h": 2164,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Russian_Wonder_Tales_010.jpg/330px-Russian_Wonder_Tales_010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:1932. Билибин. Морозко.jpg",
+   "w": 906,
+   "h": 1129,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/1932._%D0%91%D0%B8%D0%BB%D0%B8%D0%B1%D0%B8%D0%BD._%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%BA%D0%BE.jpg/330px-1932._%D0%91%D0%B8%D0%BB%D0%B8%D0%B1%D0%B8%D0%BD._%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%BA%D0%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ivan Bilibin 173.jpg",
+   "w": 2655,
+   "h": 1811,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Ivan_Bilibin_173.jpg/330px-Ivan_Bilibin_173.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:The Feather of Finist the Falcon (Bilibin) - cover2.jpg",
+   "w": 2312,
+   "h": 2960,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/The_Feather_of_Finist_the_Falcon_%28Bilibin%29_-_cover2.jpg/330px-The_Feather_of_Finist_the_Falcon_%28Bilibin%29_-_cover2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ivan Bilibin 024.jpg",
+   "w": 819,
+   "h": 1166,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ivan_Bilibin_024.jpg/330px-Ivan_Bilibin_024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Сказка об Иване-царевиче, Жар-птице и Сером Волке 7.jpg",
+   "w": 2000,
+   "h": 1305,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE%D0%B1_%D0%98%D0%B2%D0%B0%D0%BD%D0%B5-%D1%86%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87%D0%B5%2C_%D0%96%D0%B0%D1%80-%D0%BF%D1%82%D0%B8%D1%86%D0%B5_%D0%B8_%D0%A1%D0%B5%D1%80%D0%BE%D0%BC_%D0%92%D0%BE%D0%BB%D0%BA%D0%B5_7.jpg/330px-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE%D0%B1_%D0%98%D0%B2%D0%B0%D0%BD%D0%B5-%D1%86%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87%D0%B5%2C_%D0%96%D0%B0%D1%80-%D0%BF%D1%82%D0%B8%D1%86%D0%B5_%D0%B8_%D0%A1%D0%B5%D1%80%D0%BE%D0%BC_%D0%92%D0%BE%D0%BB%D0%BA%D0%B5_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "impressionism": [
+  {
+   "title": "File:Renoir, Pierre-Auguste - Dance at Le Moulin de la Galette, 1876.jpg",
+   "w": 40869,
+   "h": 30379,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/330px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Flood at Port-Marly A18691.jpg",
+   "w": 4000,
+   "h": 2996,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Flood_at_Port-Marly_A18691.jpg/330px-Flood_at_Port-Marly_A18691.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Camille Pissarro, The Boulevard Montmartre at Night, 1897.jpg",
+   "w": 5103,
+   "h": 4226,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Camille_Pissarro%2C_The_Boulevard_Montmartre_at_Night%2C_1897.jpg/330px-Camille_Pissarro%2C_The_Boulevard_Montmartre_at_Night%2C_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Edgar Germain Hilaire Degas 076.jpg",
+   "w": 2000,
+   "h": 1966,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Edgar_Germain_Hilaire_Degas_076.jpg/330px-Edgar_Germain_Hilaire_Degas_076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Claude Monet - Le Parlement, soleil couchant (W 1604).jpg",
+   "w": 3200,
+   "h": 2794,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Claude_Monet_-_Le_Parlement%2C_soleil_couchant_%28W_1604%29.jpg/330px-Claude_Monet_-_Le_Parlement%2C_soleil_couchant_%28W_1604%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+   "w": 5982,
+   "h": 4531,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg/330px-Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Berthe Morisot - The Cradle - Google Art Project.jpg",
+   "w": 4105,
+   "h": 5001,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Berthe_Morisot_-_The_Cradle_-_Google_Art_Project.jpg/330px-Berthe_Morisot_-_The_Cradle_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Pierre-Auguste Renoir - Luncheon of the Boating Party - Google Art Project.jpg",
+   "w": 9025,
+   "h": 6684,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/330px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Claude Monet - The Saint-Lazare Station - Google Art Project.jpg",
+   "w": 3708,
+   "h": 2757,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Claude_Monet_-_The_Saint-Lazare_Station_-_Google_Art_Project.jpg/330px-Claude_Monet_-_The_Saint-Lazare_Station_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Claude Monet La Grenouillére.jpg",
+   "w": 3679,
+   "h": 2752,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Claude_Monet_La_Grenouill%C3%A9re.jpg/330px-Claude_Monet_La_Grenouill%C3%A9re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:The Bridge at Villeneuve-la-Garenne MET DT1040.jpg",
+   "w": 3811,
+   "h": 2911,
+   "lic": "CC0",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_Bridge_at_Villeneuve-la-Garenne_MET_DT1040.jpg/330px-The_Bridge_at_Villeneuve-la-Garenne_MET_DT1040.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:PISSARRO Camille L'Avenue de l'Opéra Huile sur toile.jpg",
+   "w": 4795,
+   "h": 3797,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg/330px-PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "nouveau": [
+  {
+   "title": "File:Alfons Mucha - The Seasons, 1896.jpg",
+   "w": 1742,
+   "h": 1192,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Alfons_Mucha_-_The_Seasons%2C_1896.jpg/330px-Alfons_Mucha_-_The_Seasons%2C_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alphonse Mucha - Zodiac, 1869.jpg",
+   "w": 2046,
+   "h": 2717,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Alphonse_Mucha_-_Zodiac%2C_1869.jpg/330px-Alphonse_Mucha_-_Zodiac%2C_1869.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - The Arts Dance, 1898.jpg",
+   "w": 1159,
+   "h": 1763,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Alfons_Mucha_-_The_Arts_Dance%2C_1898.jpg/330px-Alfons_Mucha_-_The_Arts_Dance%2C_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - Monaco Monte Carlo.jpg",
+   "w": 1087,
+   "h": 1615,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Alfons_Mucha_-_Monaco_Monte_Carlo.jpg/330px-Alfons_Mucha_-_Monaco_Monte_Carlo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - Princess Hyacinth, 1911.jpg",
+   "w": 1198,
+   "h": 1782,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Alfons_Mucha_-_Princess_Hyacinth%2C_1911.jpg/330px-Alfons_Mucha_-_Princess_Hyacinth%2C_1911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha Salammbô 1897.jpg",
+   "w": 1481,
+   "h": 1873,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Alfons_Mucha_Salammb%C3%B4_1897.jpg/330px-Alfons_Mucha_Salammb%C3%B4_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha Lance Parfum Rodo 1896-97.jpg",
+   "w": 1409,
+   "h": 2000,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Alfons_Mucha_Lance_Parfum_Rodo_1896-97.jpg/330px-Alfons_Mucha_Lance_Parfum_Rodo_1896-97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - 1896 - Biscuits Lefèvre-Utile.jpg",
+   "w": 1186,
+   "h": 1640,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Alfons_Mucha_-_1896_-_Biscuits_Lef%C3%A8vre-Utile.jpg/330px-Alfons_Mucha_-_1896_-_Biscuits_Lef%C3%A8vre-Utile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:F. Champenois imprimeur-éditeur.jpg",
+   "w": 5868,
+   "h": 7849,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/F._Champenois_imprimeur-%C3%A9diteur.jpg/330px-F._Champenois_imprimeur-%C3%A9diteur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - Fruit, 1897.jpg",
+   "w": 1178,
+   "h": 1800,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alfons_Mucha_-_Fruit%2C_1897.jpg/330px-Alfons_Mucha_-_Fruit%2C_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - Flower, 1897.jpg",
+   "w": 1153,
+   "h": 1800,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Alfons_Mucha_-_Flower%2C_1897.jpg/330px-Alfons_Mucha_-_Flower%2C_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfons Mucha - Byzantine Heads-Brunette.jpg",
+   "w": 1298,
+   "h": 1789,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Alfons_Mucha_-_Byzantine_Heads-Brunette.jpg/330px-Alfons_Mucha_-_Byzantine_Heads-Brunette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "winter": [
+  {
+   "title": "File:Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+   "w": 6819,
+   "h": 4853,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/330px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Claude Monet - The Magpie - Google Art Project.jpg",
+   "w": 4289,
+   "h": 2909,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/330px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Alfred Sisley - Snow at Louveciennes - Google Art Project.jpg",
+   "w": 3255,
+   "h": 4001,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alfred_Sisley_-_Snow_at_Louveciennes_-_Google_Art_Project.jpg/330px-Alfred_Sisley_-_Snow_at_Louveciennes_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Gustave Caillebotte - Rooftops in the Snow (snow effect) - Google Art Project.jpg",
+   "w": 5041,
+   "h": 3993,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Gustave_Caillebotte_-_Rooftops_in_the_Snow_%28snow_effect%29_-_Google_Art_Project.jpg/330px-Gustave_Caillebotte_-_Rooftops_in_the_Snow_%28snow_effect%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ivan Shishkin - Winter.JPG",
+   "w": 1725,
+   "h": 1056,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ivan_Shishkin_-_Winter.JPG/330px-Ivan_Shishkin_-_Winter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Maslenitsa kustodiev.jpg",
+   "w": 2000,
+   "h": 1452,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Maslenitsa_kustodiev.jpg/330px-Maslenitsa_kustodiev.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Van Gogh - Der alte Friedhofsturm in Nuenen im Schnee.jpeg",
+   "w": 2520,
+   "h": 1806,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Van_Gogh_-_Der_alte_Friedhofsturm_in_Nuenen_im_Schnee.jpeg/330px-Van_Gogh_-_Der_alte_Friedhofsturm_in_Nuenen_im_Schnee.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:'Winter Night, Ekely' by Edvard Munch, 1930-31.JPG",
+   "w": 2932,
+   "h": 2000,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%27Winter_Night%2C_Ekely%27_by_Edvard_Munch%2C_1930-31.JPG/330px-%27Winter_Night%2C_Ekely%27_by_Edvard_Munch%2C_1930-31.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Pieter Bruegel d. Ä. 093.jpg",
+   "w": 3200,
+   "h": 2123,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pieter_Bruegel_d._%C3%84._093.jpg/330px-Pieter_Bruegel_d._%C3%84._093.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:First Snow at Veneux-Nadon A31114.jpg",
+   "w": 4000,
+   "h": 2995,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/First_Snow_at_Veneux-Nadon_A31114.jpg/330px-First_Snow_at_Veneux-Nadon_A31114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Shishkin na severe dikom1.jpg",
+   "w": 2400,
+   "h": 3444,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Shishkin_na_severe_dikom1.jpg/330px-Shishkin_na_severe_dikom1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Claude Monet (French - Wheatstacks, Snow Effect, Morning - Google Art Project.jpg",
+   "w": 4651,
+   "h": 2996,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_%28French_-_Wheatstacks%2C_Snow_Effect%2C_Morning_-_Google_Art_Project.jpg/330px-Claude_Monet_%28French_-_Wheatstacks%2C_Snow_Effect%2C_Morning_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "maps": [
+  {
+   "title": "File:Andreas Cellarius' Harmonia Macrocosmica.jpg",
+   "w": 2894,
+   "h": 2478,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Andreas_Cellarius%27_Harmonia_Macrocosmica.jpg/330px-Andreas_Cellarius%27_Harmonia_Macrocosmica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Corporum Coelestium Magnitudines.jpg",
+   "w": 2931,
+   "h": 2468,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cellarius_Harmonia_Macrocosmica_-_Corporum_Coelestium_Magnitudines.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Corporum_Coelestium_Magnitudines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Andreas Cellarius' Theoria Lunae.jpg",
+   "w": 2890,
+   "h": 2465,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Andreas_Cellarius%27_Theoria_Lunae.jpg/330px-Andreas_Cellarius%27_Theoria_Lunae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Coeli Stellati Christiani Haemisphaerium PosteriusFXD.jpg",
+   "w": 2594,
+   "h": 2196,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cellarius_Harmonia_Macrocosmica_-_Coeli_Stellati_Christiani_Haemisphaerium_PosteriusFXD.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Coeli_Stellati_Christiani_Haemisphaerium_PosteriusFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Haemisphaerium Scenographicum Australe Coeli Stellati et Terrae.jpg",
+   "w": 2907,
+   "h": 2445,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Cellarius_Harmonia_Macrocosmica_-_Haemisphaerium_Scenographicum_Australe_Coeli_Stellati_et_Terrae.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Haemisphaerium_Scenographicum_Australe_Coeli_Stellati_et_Terrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Haemisphaerium Stellatum Boreale Antiquum.jpg",
+   "w": 2884,
+   "h": 2428,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Cellarius_Harmonia_Macrocosmica_-_Haemisphaerium_Stellatum_Boreale_Antiquum.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Haemisphaerium_Stellatum_Boreale_Antiquum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Haemisphaerium Stellatum Boreale cum Subjecto Haemisphaerio TerrestriFXD.jpg",
+   "w": 2582,
+   "h": 2157,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cellarius_Harmonia_Macrocosmica_-_Haemisphaerium_Stellatum_Boreale_cum_Subjecto_Haemisphaerio_TerrestriFXD.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Haemisphaerium_Stellatum_Boreale_cum_Subjecto_Haemisphaerio_TerrestriFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Hemisphaerium Orbis Antiqui.jpg",
+   "w": 2900,
+   "h": 2470,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Cellarius_Harmonia_Macrocosmica_-_Hemisphaerium_Orbis_Antiqui.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Hemisphaerium_Orbis_Antiqui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Cellarius Harmonia Macrocosmica - Orbium Planetarum Terram Complectentium Scenographia.jpg",
+   "w": 2908,
+   "h": 2478,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cellarius_Harmonia_Macrocosmica_-_Orbium_Planetarum_Terram_Complectentium_Scenographia.jpg/330px-Cellarius_Harmonia_Macrocosmica_-_Orbium_Planetarum_Terram_Complectentium_Scenographia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Nova et Accuratissima Terrarum Orbis Tabula (J.Blaeu, 1664).jpg",
+   "w": 7686,
+   "h": 6751,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Nova_et_Accuratissima_Terrarum_Orbis_Tabula_%28J.Blaeu%2C_1664%29.jpg/330px-Nova_et_Accuratissima_Terrarum_Orbis_Tabula_%28J.Blaeu%2C_1664%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Theatrum Orbis Terrarum, by Abraham Ortelius, World, 1572.jpg",
+   "w": 12136,
+   "h": 8263,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg/330px-Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Carta Marina.jpeg",
+   "w": 5016,
+   "h": 3715,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Carta_Marina.jpeg/330px-Carta_Marina.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "earth": [
+  {
+   "title": "File:Lena River Delta - Landsat 2000.jpg",
+   "w": 3100,
+   "h": 3100,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lena_River_Delta_-_Landsat_2000.jpg/330px-Lena_River_Delta_-_Landsat_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Namib desert MODIS.jpg",
+   "w": 4000,
+   "h": 5600,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Namib_desert_MODIS.jpg/330px-Namib_desert_MODIS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Great Barrier Reef (MODIS).jpg",
+   "w": 2896,
+   "h": 2077,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Great_Barrier_Reef_%28MODIS%29.jpg/330px-Great_Barrier_Reef_%28MODIS%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Ocean Sand, Bahamas.jpeg",
+   "w": 3600,
+   "h": 2400,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ocean_Sand%2C_Bahamas.jpeg/330px-Ocean_Sand%2C_Bahamas.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Himalayas.jpg",
+   "w": 3032,
+   "h": 1998,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Himalayas.jpg/330px-Himalayas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Yukon Delta, Alaska.jpg",
+   "w": 4000,
+   "h": 4000,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Yukon_Delta%2C_Alaska.jpg/330px-Yukon_Delta%2C_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Aurora Australis From ISS.JPG",
+   "w": 4256,
+   "h": 2832,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Aurora_Australis_From_ISS.JPG/330px-Aurora_Australis_From_ISS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Tassili n’Ajjer National Park NASA Landsat 7 (2000).jpg",
+   "w": 6357,
+   "h": 4869,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Tassili_n%E2%80%99Ajjer_National_Park_NASA_Landsat_7_%282000%29.jpg/330px-Tassili_n%E2%80%99Ajjer_National_Park_NASA_Landsat_7_%282000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Madagascar’s Betsiboka River Delta (153479).jpg",
+   "w": 6697,
+   "h": 4465,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Madagascar%E2%80%99s_Betsiboka_River_Delta_%28153479%29.jpg/330px-Madagascar%E2%80%99s_Betsiboka_River_Delta_%28153479%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Richat Structure ISS030-E-12516.jpg",
+   "w": 4288,
+   "h": 2848,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Richat_Structure_ISS030-E-12516.jpg/330px-Richat_Structure_ISS030-E-12516.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:ISS-38 Kliuchevskoi Volcano on Kamchatka.jpg",
+   "w": 5162,
+   "h": 3441,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/ISS-38_Kliuchevskoi_Volcano_on_Kamchatka.jpg/330px-ISS-38_Kliuchevskoi_Volcano_on_Kamchatka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "title": "File:Holuhraun False Color OLI Landsat 8 01.jpg",
+   "w": 2400,
+   "h": 1800,
+   "lic": "Public domain",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Holuhraun_False_Color_OLI_Landsat_8_01.jpg/330px-Holuhraun_False_Color_OLI_Landsat_8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ]
+}
