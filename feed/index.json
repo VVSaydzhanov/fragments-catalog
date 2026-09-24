@@ -1,0 +1,491 @@
+{
+ "version": 1,
+ "updated": "2026-09-24",
+ "count": 2990,
+ "shard": 200,
+ "art": 1495,
+ "photo": 1495,
+ "groups": [
+  {
+   "id": "season",
+   "title": [
+    "Время года",
+    "Season"
+   ]
+  },
+  {
+   "id": "time",
+   "title": [
+    "Время суток",
+    "Time of day"
+   ]
+  },
+  {
+   "id": "mood",
+   "title": [
+    "Погода и настроение",
+    "Weather & mood"
+   ]
+  },
+  {
+   "id": "subject",
+   "title": [
+    "Сюжет",
+    "Subject"
+   ]
+  },
+  {
+   "id": "tone",
+   "title": [
+    "Тона",
+    "Tones"
+   ]
+  },
+  {
+   "id": "difficulty",
+   "title": [
+    "Сложность пазла",
+    "Puzzle difficulty"
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "id": "spring",
+   "group": "season",
+   "title": [
+    "Весна",
+    "Spring"
+   ],
+   "count": 236
+  },
+  {
+   "id": "summer",
+   "group": "season",
+   "title": [
+    "Лето",
+    "Summer"
+   ],
+   "count": 272
+  },
+  {
+   "id": "autumn",
+   "group": "season",
+   "title": [
+    "Осень",
+    "Autumn"
+   ],
+   "count": 43
+  },
+  {
+   "id": "winter",
+   "group": "season",
+   "title": [
+    "Зима",
+    "Winter"
+   ],
+   "count": 229
+  },
+  {
+   "id": "morning",
+   "group": "time",
+   "title": [
+    "Утро",
+    "Morning"
+   ],
+   "count": 136
+  },
+  {
+   "id": "day",
+   "group": "time",
+   "title": [
+    "День",
+    "Day"
+   ],
+   "count": 356
+  },
+  {
+   "id": "sunset",
+   "group": "time",
+   "title": [
+    "Закат",
+    "Sunset"
+   ],
+   "count": 28
+  },
+  {
+   "id": "evening",
+   "group": "time",
+   "title": [
+    "Вечер",
+    "Evening"
+   ],
+   "count": 123
+  },
+  {
+   "id": "night",
+   "group": "time",
+   "title": [
+    "Ночь",
+    "Night"
+   ],
+   "count": 102
+  },
+  {
+   "id": "sunny",
+   "group": "mood",
+   "title": [
+    "Солнечно",
+    "Sunny"
+   ],
+   "count": 245
+  },
+  {
+   "id": "fog",
+   "group": "mood",
+   "title": [
+    "Туман",
+    "Fog"
+   ],
+   "count": 99
+  },
+  {
+   "id": "rain",
+   "group": "mood",
+   "title": [
+    "Дождь",
+    "Rain"
+   ],
+   "count": 27
+  },
+  {
+   "id": "snow",
+   "group": "mood",
+   "title": [
+    "Снег",
+    "Snow"
+   ],
+   "count": 243
+  },
+  {
+   "id": "storm",
+   "group": "mood",
+   "title": [
+    "Шторм",
+    "Storm"
+   ],
+   "count": 41
+  },
+  {
+   "id": "cozy",
+   "group": "mood",
+   "title": [
+    "Уютно",
+    "Cozy"
+   ],
+   "count": 108
+  },
+  {
+   "id": "calm",
+   "group": "mood",
+   "title": [
+    "Спокойно",
+    "Calm"
+   ],
+   "count": 227
+  },
+  {
+   "id": "landscape",
+   "group": "subject",
+   "title": [
+    "Пейзаж",
+    "Landscape"
+   ],
+   "count": 887
+  },
+  {
+   "id": "city",
+   "group": "subject",
+   "title": [
+    "Город",
+    "City"
+   ],
+   "count": 354
+  },
+  {
+   "id": "street",
+   "group": "subject",
+   "title": [
+    "Улицы",
+    "Streets"
+   ],
+   "count": 140
+  },
+  {
+   "id": "architecture",
+   "group": "subject",
+   "title": [
+    "Архитектура",
+    "Architecture"
+   ],
+   "count": 505
+  },
+  {
+   "id": "sea",
+   "group": "subject",
+   "title": [
+    "Море",
+    "Sea"
+   ],
+   "count": 315
+  },
+  {
+   "id": "mountains",
+   "group": "subject",
+   "title": [
+    "Горы",
+    "Mountains"
+   ],
+   "count": 327
+  },
+  {
+   "id": "forest",
+   "group": "subject",
+   "title": [
+    "Лес",
+    "Forest"
+   ],
+   "count": 390
+  },
+  {
+   "id": "water",
+   "group": "subject",
+   "title": [
+    "Реки и озёра",
+    "Rivers & lakes"
+   ],
+   "count": 335
+  },
+  {
+   "id": "flowers",
+   "group": "subject",
+   "title": [
+    "Цветы",
+    "Flowers"
+   ],
+   "count": 396
+  },
+  {
+   "id": "animals",
+   "group": "subject",
+   "title": [
+    "Животные",
+    "Animals"
+   ],
+   "count": 373
+  },
+  {
+   "id": "birds",
+   "group": "subject",
+   "title": [
+    "Птицы",
+    "Birds"
+   ],
+   "count": 316
+  },
+  {
+   "id": "sky",
+   "group": "subject",
+   "title": [
+    "Небо",
+    "Sky"
+   ],
+   "count": 163
+  },
+  {
+   "id": "still_life",
+   "group": "subject",
+   "title": [
+    "Натюрморт",
+    "Still life"
+   ],
+   "count": 73
+  },
+  {
+   "id": "space",
+   "group": "subject",
+   "title": [
+    "Космос",
+    "Space"
+   ],
+   "count": 39
+  },
+  {
+   "id": "warm",
+   "group": "tone",
+   "title": [
+    "Тёплые тона",
+    "Warm tones"
+   ],
+   "count": 1734
+  },
+  {
+   "id": "cold",
+   "group": "tone",
+   "title": [
+    "Холодные тона",
+    "Cool tones"
+   ],
+   "count": 335
+  },
+  {
+   "id": "bright",
+   "group": "tone",
+   "title": [
+    "Яркие",
+    "Vivid"
+   ],
+   "count": 196
+  },
+  {
+   "id": "pastel",
+   "group": "tone",
+   "title": [
+    "Пастель",
+    "Pastel"
+   ],
+   "count": 375
+  },
+  {
+   "id": "dark",
+   "group": "tone",
+   "title": [
+    "Тёмные",
+    "Dark"
+   ],
+   "count": 434
+  },
+  {
+   "id": "easy",
+   "group": "difficulty",
+   "title": [
+    "Лёгкие",
+    "Easy"
+   ],
+   "count": 855
+  },
+  {
+   "id": "medium",
+   "group": "difficulty",
+   "title": [
+    "Средние",
+    "Medium"
+   ],
+   "count": 1078
+  },
+  {
+   "id": "hard",
+   "group": "difficulty",
+   "title": [
+    "Сложные",
+    "Hard"
+   ],
+   "count": 1057
+  }
+ ],
+ "presets": [
+  {
+   "id": "winter_evening",
+   "title": [
+    "Зимний вечер",
+    "Winter evening"
+   ],
+   "tags": [
+    "winter",
+    "evening"
+   ],
+   "count": 25
+  },
+  {
+   "id": "sea_breeze",
+   "title": [
+    "Морской бриз",
+    "Sea breeze"
+   ],
+   "tags": [
+    "sea",
+    "sunny"
+   ],
+   "count": 43
+  },
+  {
+   "id": "night_city",
+   "title": [
+    "Ночной город",
+    "City at night"
+   ],
+   "tags": [
+    "city",
+    "night"
+   ],
+   "count": 25
+  },
+  {
+   "id": "spring_flowers",
+   "title": [
+    "Весенние цветы",
+    "Spring flowers"
+   ],
+   "tags": [
+    "spring",
+    "flowers"
+   ],
+   "count": 123
+  },
+  {
+   "id": "misty",
+   "title": [
+    "Туманное утро",
+    "Misty morning"
+   ],
+   "tags": [
+    "fog"
+   ],
+   "count": 99
+  },
+  {
+   "id": "cozy",
+   "title": [
+    "Уютно",
+    "Cozy"
+   ],
+   "tags": [
+    "cozy"
+   ],
+   "count": 108
+  },
+  {
+   "id": "mountains_snow",
+   "title": [
+    "Снежные горы",
+    "Snowy mountains"
+   ],
+   "tags": [
+    "mountains",
+    "winter"
+   ],
+   "count": 82
+  },
+  {
+   "id": "easy",
+   "title": [
+    "Лёгкие пазлы",
+    "Easy puzzles"
+   ],
+   "tags": [
+    "easy"
+   ],
+   "count": 855
+  }
+ ]
+}

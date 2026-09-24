@@ -138,3 +138,14 @@ The app downloads `catalog.json` (GitHub Pages, fallback via jsDelivr) and fetch
 1. Add candidates to `tools/titles.json` / `tools/selected.json` (curated by hand from `tools/harvest.py` output).
 2. `python tools/build_manifest.py` — resolves URLs and re-checks licenses.
 3. Commit `catalog.json`; bump `updated`, set `added` for new collections (the app marks them as new).
+
+## Бесконечная лента / Endless feed
+
+`feed/index.json` — теги и подборки, `feed/items/<n>.json` — страницы по 200, `feed/tags/<tag>.json` — номера картинок с тегом.
+
+Сейчас: **2990** картинок (1495 картин + 1495 фото), обновлено 2026-09-24.
+
+Картины — Art Institute of Chicago (CC0), фото — «Избранные изображения» Wikimedia Commons (PD/CC0/CC BY/CC BY-SA, автор указан в `a`).
+Теги проставлены автоматически: сюжет и настроение — моделью CLIP локально, тона и сложность — по цвету и детализации.
+
+Пересборка: `tools/harvest_art.py`, `tools/harvest_photo.py` → `tools/.venv/Scripts/python tools/tag_items.py` → `tools/build_feed.py`.
