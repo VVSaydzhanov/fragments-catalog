@@ -51,6 +51,11 @@ def stable_key(src_key):
     return "f_" + hashlib.md5(src_key.encode()).hexdigest()[:10]
 
 
+def big_thumb(url):
+    """Превью под плотные экраны: карточка ~170 точек при тройной плотности ≈ 512 пикселей."""
+    return url.replace("/330px-", "/512px-").replace("/full/!400,400/", "/full/!512,512/")
+
+
 def main():
     items = json.load(open(os.path.join(WORK, "tagged.json"), encoding="utf-8"))
     rnd = random.Random(20260924)
@@ -76,7 +81,7 @@ def main():
     for i, k in enumerate(order):
         v = items[k]
         rec = {"k": stable_key(k), "s": "a" if v["section"] == "art" else "p", "t": v["title"], "a": v.get("author", ""),
-               "l": v["license"], "u": v["url"], "th": v["thumb"], "w": v["w"], "h": v["h"], "p": v["page"], "g": v["tags"]}
+               "l": v["license"], "u": v["url"], "th": big_thumb(v["thumb"]), "w": v["w"], "h": v["h"], "p": v["page"], "g": v["tags"]}
         if v.get("date"):
             rec["d"] = v["date"]
         shard.append(rec)
