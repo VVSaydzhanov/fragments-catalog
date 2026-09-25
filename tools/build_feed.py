@@ -12,6 +12,9 @@ WORK = os.path.join(ROOT, "work")
 FEED = os.path.join(ROOT, "feed")
 SHARD = 200
 MIN_PRESET = 12
+# доля «ровных» участков: у снимка с размытым фоном на весь кадр детали пазла получаются пустые.
+# Фотографий в запасе на порядок больше, чем нужно ленте, так что самые «гладкие» просто не берём.
+MAX_FLAT = 0.55
 
 TAGS = [
     ("season", "spring", "Весна", "Spring"), ("season", "summer", "Лето", "Summer"),
@@ -61,7 +64,7 @@ def main():
     items = json.load(open(os.path.join(WORK, "tagged.json"), encoding="utf-8"))
     rnd = random.Random(20260924)
     art = [k for k, v in items.items() if v["section"] == "art"]
-    photo = [k for k, v in items.items() if v["section"] == "photo"]
+    photo = [k for k, v in items.items() if v["section"] == "photo" and v["color"]["flat"] <= MAX_FLAT]
     # 50/50: у большей секции оставляем лучшие (картины — «хиты» музея и самые пёстрые, фото — случайно)
     n = min(len(art), len(photo))
     art.sort(key=lambda k: (not items[k].get("boosted"), -items[k]["color"]["colorful"]))
