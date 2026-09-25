@@ -86,6 +86,27 @@ def clean(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
 
 
+TAIL_WORD = re.compile(r"\s+(and|with|in|on|of|a|an|the|for|at|to|by|from|near|over|under|its|their)$", re.I)
+
+
+def short_title(alt: str, author: str) -> str:
+    """Pexels отдаёт описание целым предложением — в карточке нужен короткий заголовок."""
+    t = re.sub(r"\s+", " ", (alt or "").strip())
+    t = re.sub(r"^(a|an|the) ", "", t, flags=re.I)
+    cut = re.split(r"[,.;:]| showcasing | featuring | surrounded by | against | while ", t)[0].strip()
+    if len(cut) >= 15:
+        t = cut
+    if len(t) > 60:
+        t = t[:60].rsplit(" ", 1)[0]
+    t = t.strip(" -—")
+    while True:  # обрезали по длине — не оставляем висеть предлог или союз
+        cut = TAIL_WORD.sub("", t)
+        if cut == t:
+            break
+        t = cut
+    return (t[:1].upper() + t[1:]) if t else author
+
+
 def main() -> None:
     pages = int(sys.argv[sys.argv.index("--pages") + 1]) if "--pages" in sys.argv else 3
     api_key = key()
@@ -109,7 +130,7 @@ def main() -> None:
                 original = p.get("src", {}).get("original", "")
                 if not original:
                     continue
-                title = clean(p.get("alt", ""))[:80] or clean(p.get("photographer", ""))[:80]
+                title = short_title(p.get("alt", ""), clean(p.get("photographer", "")))
                 out[k] = {
                     "section": "photo", "kind": "photo", "source": "pexels",
                     "title": title, "author": clean(p.get("photographer", ""))[:80], "license": "Pexels",
