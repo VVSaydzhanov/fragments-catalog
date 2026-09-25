@@ -131,9 +131,13 @@ def color_features(img):
 def main():
     art = json.load(open(os.path.join(WORK, "art_raw.json"), encoding="utf-8"))
     photo = json.load(open(os.path.join(WORK, "photo_raw.json"), encoding="utf-8"))
+    # Pexels — необязательный источник: файла нет, пока не запускали harvest_pexels.py
+    pex_path = os.path.join(WORK, "pexels_raw.json")
+    pexels = json.load(open(pex_path, encoding="utf-8")) if os.path.exists(pex_path) else {}
+    photo.update(pexels)
     items = dict(art)
     items.update(photo)
-    print("items:", len(items), "art", len(art), "photo", len(photo), flush=True)
+    print("items:", len(items), "art", len(art), "photo", len(photo), "(pexels", len(pexels), ")", flush=True)
 
     # 1) превью (--no-fetch: работаем только с уже скачанными)
     todo = [] if "--no-fetch" in sys.argv else [(k, v) for k, v in items.items() if not os.path.exists(thumb_path(k))]
