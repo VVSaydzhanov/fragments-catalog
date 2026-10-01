@@ -1,6 +1,6 @@
 """Собирает бесконечную ленту из work/tagged.json в feed/ (статика для GitHub Pages):
   feed/index.json          — теги (RU/EN, группы, количество), подборки, число страниц
-  feed/items/<n>.json      — страницы по SHARD картинок (порядок: картины и фото вперемешку 50/50)
+  feed/items/<n>.json      — страницы по SHARD картинок (порядок: на девять фото одна картина)
   feed/tags/<tag>.json     — отсортированные номера картинок с тегом (+ sec_art / sec_photo)
 Ключи стабильные (хеш источника) — начатые партии в игре переживают пересборку.
 Запуск: python tools/build_feed.py"""
@@ -15,6 +15,10 @@ MIN_PRESET = 12
 # доля «ровных» участков: у снимка с размытым фоном на весь кадр детали пазла получаются пустые.
 # Фотографий в запасе на порядок больше, чем нужно ленте, так что самые «гладкие» просто не берём.
 MAX_FLAT = 0.55
+# В общей ленте на PHOTOS_PER_ART снимков одна картина: фото собирают охотнее, а картины
+# остаются приправой. Раньше шло строго через одну — и в две колонки картины вставали
+# слева, а фото справа.
+PHOTOS_PER_ART = 9
 
 TAGS = [
     ("season", "spring", "Весна", "Spring"), ("season", "summer", "Лето", "Summer"),
@@ -60,20 +64,46 @@ def big_thumb(url):
     return url.replace("/full/!400,400/", "/full/!512,512/")
 
 
+def _vivid_first(keys, items, rnd):
+    """Перемешивание с перевесом в сторону ярких: чем пёстрее снимок, тем вероятнее он ближе
+    к началу ленты. Не сортировка — иначе наверху собрались бы одинаковые закаты.
+    Вес — место по пёстрости (0..1), а не сама величина: её масштаб у разных источников разный."""
+    ranked = sorted(keys, key=lambda k: items[k]["color"]["colorful"])
+    pct = {k: i / max(len(ranked) - 1, 1) for i, k in enumerate(ranked)}
+    # взвешенная выборка без возвращения (Эфраимидис — Спиракис): ключ u^(1/w)
+    return sorted(keys, key=lambda k: -(rnd.random() ** (1.0 / (0.3 + pct[k]))))
+
+
+def _mix(photo, art):
+    """Десятки: девять фото и одна картина. Место картины внутри десятка гуляет (3, 0, 7, 4…),
+    и его чётность меняется от десятка к десятку — в сетке на две колонки картины встают
+    то слева, то справа. Кончились фото — дальше идут оставшиеся картины, и наоборот."""
+    order, pi, ai, block = [], 0, 0, 0
+    size = PHOTOS_PER_ART + 1
+    while pi < len(photo) or ai < len(art):
+        slot = (block * 7 + 3) % size
+        for k in range(size):
+            if k == slot and ai < len(art):
+                order.append(art[ai])
+                ai += 1
+            elif pi < len(photo):
+                order.append(photo[pi])
+                pi += 1
+            elif ai < len(art):
+                order.append(art[ai])
+                ai += 1
+        block += 1
+    return order
+
+
 def main():
     items = json.load(open(os.path.join(WORK, "tagged.json"), encoding="utf-8"))
     rnd = random.Random(20260924)
     art = [k for k, v in items.items() if v["section"] == "art"]
     photo = [k for k, v in items.items() if v["section"] == "photo" and v["color"]["flat"] <= MAX_FLAT]
-    # 50/50: у большей секции оставляем лучшие (картины — «хиты» музея и самые пёстрые, фото — случайно)
-    n = min(len(art), len(photo))
-    art.sort(key=lambda k: (not items[k].get("boosted"), -items[k]["color"]["colorful"]))
-    art = art[:n]
-    photo = photo[:]
-    rnd.shuffle(photo)
-    photo = photo[:n]
     rnd.shuffle(art)
-    order = [k for pair in zip(art, photo) for k in pair]
+    photo = _vivid_first(photo, items, rnd)
+    order = _mix(photo, art)
 
     if os.path.isdir(FEED):
         shutil.rmtree(FEED)
