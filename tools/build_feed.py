@@ -1,7 +1,7 @@
 """Собирает бесконечную ленту из work/tagged.json в feed/ (статика для GitHub Pages):
   feed/index.json          — теги (RU/EN, группы, количество), подборки, число страниц
-  feed/items/<n>.json      — страницы по SHARD картинок (порядок: на девять фото одна картина)
-  feed/tags/<tag>.json     — отсортированные номера картинок с тегом (+ sec_art / sec_photo)
+  feed/items/<n>.json      — страницы по SHARD картинок (в десятке: картина, две сгенерированные, семь фото)
+  feed/tags/<tag>.json     — отсортированные номера картинок с тегом (+ sec_art / sec_photo / sec_gen)
 Ключи стабильные (хеш источника) — начатые партии в игре переживают пересборку.
 Запуск: python tools/build_feed.py"""
 import datetime, hashlib, json, os, random, shutil
@@ -15,10 +15,11 @@ MIN_PRESET = 12
 # доля «ровных» участков: у снимка с размытым фоном на весь кадр детали пазла получаются пустые.
 # Фотографий в запасе на порядок больше, чем нужно ленте, так что самые «гладкие» просто не берём.
 MAX_FLAT = 0.55
-# В общей ленте на PHOTOS_PER_ART снимков одна картина: фото собирают охотнее, а картины
-# остаются приправой. Раньше шло строго через одну — и в две колонки картины вставали
-# слева, а фото справа.
-PHOTOS_PER_ART = 9
+# В общей ленте десятками: одна картина, GEN_PER_BLOCK сгенерированных (самые яркие —
+# пусть их будет заметно), остальное фото. Раньше картины и фото шли строго через одну —
+# и в две колонки картины вставали слева, а фото справа.
+BLOCK = 10
+GEN_PER_BLOCK = 2
 
 TAGS = [
     ("season", "spring", "Весна", "Spring"), ("season", "summer", "Лето", "Summer"),
@@ -74,24 +75,25 @@ def _vivid_first(keys, items, rnd):
     return sorted(keys, key=lambda k: -(rnd.random() ** (1.0 / (0.3 + pct[k]))))
 
 
-def _mix(photo, art):
-    """Десятки: девять фото и одна картина. Место картины внутри десятка гуляет (3, 0, 7, 4…),
-    и его чётность меняется от десятка к десятку — в сетке на две колонки картины встают
-    то слева, то справа. Кончились фото — дальше идут оставшиеся картины, и наоборот."""
-    order, pi, ai, block = [], 0, 0, 0
-    size = PHOTOS_PER_ART + 1
-    while pi < len(photo) or ai < len(art):
-        slot = (block * 7 + 3) % size
-        for k in range(size):
-            if k == slot and ai < len(art):
-                order.append(art[ai])
-                ai += 1
-            elif pi < len(photo):
-                order.append(photo[pi])
-                pi += 1
-            elif ai < len(art):
-                order.append(art[ai])
-                ai += 1
+def _mix(photo, art, gen):
+    """Десятки: картина, GEN_PER_BLOCK сгенерированных, остальное фото. Места картины и
+    сгенерированных внутри десятка гуляют, и их чётность меняется от десятка к десятку —
+    в сетке на две колонки они встают то слева, то справа. Кончился какой-то вид — его
+    места занимают остальные."""
+    queues = {"a": list(art), "g": list(gen), "p": list(photo)}
+    order, block = [], 0
+    while any(queues.values()):
+        slots = {(block * 7 + 3) % BLOCK: "a"}
+        for n in range(GEN_PER_BLOCK):
+            s = (block * 3 + 1 + n * 5) % BLOCK
+            while s in slots:
+                s = (s + 1) % BLOCK
+            slots[s] = "g"
+        for k in range(BLOCK):
+            for kind in (slots.get(k, "p"), "p", "g", "a"):
+                if queues[kind]:
+                    order.append(queues[kind].pop(0))
+                    break
         block += 1
     return order
 
@@ -101,25 +103,27 @@ def main():
     rnd = random.Random(20260924)
     art = [k for k, v in items.items() if v["section"] == "art"]
     photo = [k for k, v in items.items() if v["section"] == "photo" and v["color"]["flat"] <= MAX_FLAT]
+    gen = [k for k, v in items.items() if v["section"] == "gen"]
     rnd.shuffle(art)
+    rnd.shuffle(gen)   # генерировались по сюжетам подряд — без перемешивания шли бы пачками
     photo = _vivid_first(photo, items, rnd)
-    order = _mix(photo, art)
+    order = _mix(photo, art, gen)
 
     if os.path.isdir(FEED):
         shutil.rmtree(FEED)
     os.makedirs(os.path.join(FEED, "items"))
     os.makedirs(os.path.join(FEED, "tags"))
     tag_ids = {t[1]: [] for t in TAGS}
-    tag_ids["sec_art"], tag_ids["sec_photo"] = [], []
+    tag_ids["sec_art"], tag_ids["sec_photo"], tag_ids["sec_gen"] = [], [], []
     shard = []
     for i, k in enumerate(order):
         v = items[k]
-        rec = {"k": stable_key(k), "s": "a" if v["section"] == "art" else "p", "t": v["title"], "a": v.get("author", ""),
+        rec = {"k": stable_key(k), "s": {"art": "a", "gen": "g"}.get(v["section"], "p"), "t": v["title"], "a": v.get("author", ""),
                "l": v["license"], "u": v["url"], "th": big_thumb(v["thumb"]), "w": v["w"], "h": v["h"], "p": v["page"], "g": v["tags"]}
         if v.get("date"):
             rec["d"] = v["date"]
         shard.append(rec)
-        tag_ids["sec_art" if rec["s"] == "a" else "sec_photo"].append(i)
+        tag_ids[{"a": "sec_art", "g": "sec_gen"}.get(rec["s"], "sec_photo")].append(i)
         for t in v["tags"]:
             if t in tag_ids:
                 tag_ids[t].append(i)
@@ -141,13 +145,13 @@ def main():
     index = {
         # время в метке: за день лента может пересобираться не раз, и клиент должен это заметить
         "version": 1, "updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), "count": len(order), "shard": SHARD,
-        "art": len(art), "photo": len(photo),
+        "art": len(art), "photo": len(photo), "gen": len(gen),
         "groups": [{"id": g, "title": t} for g, t in GROUPS.items()],
         "tags": [{"id": tid, "group": g, "title": [ru, en], "count": len(tag_ids[tid])} for g, tid, ru, en in TAGS if tag_ids[tid]],
         "presets": presets,
     }
     json.dump(index, open(os.path.join(FEED, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("feed:", len(order), "items (art", len(art), "/ photo", len(photo), "),", len(presets), "presets")
+    print("feed:", len(order), "items (art", len(art), "/ photo", len(photo), "/ gen", len(gen), "),", len(presets), "presets")
     for p in presets:
         print("  ", p["title"][0], p["count"])
 

@@ -64,7 +64,9 @@ REJECT = {
               ("a diagram, map, chart or document", "a {}"),
               ("a microscope image or an x-ray scan", "a {}")],
 }
-WORD = {"art": "painting", "photo": "photo"}
+WORD = {"art": "painting", "photo": "photo", "gen": "picture"}
+# Сгенерированные картинки (tools/gen_images.py) лежат на нашем же GitHub Pages
+PAGES = "https://vvsaydzhanov.github.io/fragments-catalog/"
 # подсказки из метаданных (AIC subjects / категории Commons) — считаются надёжными
 META_HINTS = {
     "winter": ["winter", "snow"], "autumn": ["autumn", "fall foliage"], "spring": ["spring"],
@@ -128,6 +130,29 @@ def color_features(img):
             "colorful": colorful, "detail": float(grad.mean()), "flat": flat}
 
 
+def load_gen():
+    """Свои сгенерированные картинки: превью уже на диске — кладём его туда, где разметка
+    ищет скачанные, а адреса ставим на GitHub Pages (туда их выкладывает publish_gen.py)."""
+    path = os.path.join(WORK, "gen_raw.json")
+    if not os.path.exists(path):
+        return {}
+    out = {}
+    for k, v in json.load(open(path, encoding="utf-8")).items():
+        if v.get("rejected"):
+            continue
+        src = os.path.join(WORK, "gen", "thumbs", k + ".jpg")
+        if not os.path.exists(src):
+            continue
+        if not os.path.exists(thumb_path(k)):
+            Image.open(src).convert("RGB").save(thumb_path(k), quality=88)
+        v = dict(v)
+        v["url"] = PAGES + "gen/%s.webp" % k
+        v["thumb"] = PAGES + "gen/thumbs/%s.webp" % k
+        v["page"] = ""
+        out[k] = v
+    return out
+
+
 def main():
     art = json.load(open(os.path.join(WORK, "art_raw.json"), encoding="utf-8"))
     photo = json.load(open(os.path.join(WORK, "photo_raw.json"), encoding="utf-8"))
@@ -137,7 +162,9 @@ def main():
     photo.update(pexels)
     items = dict(art)
     items.update(photo)
-    print("items:", len(items), "art", len(art), "photo", len(photo), "(pexels", len(pexels), ")", flush=True)
+    gen = load_gen()
+    items.update(gen)
+    print("items:", len(items), "art", len(art), "photo", len(photo), "(pexels", len(pexels), ") gen", len(gen), flush=True)
 
     # 1) превью (--no-fetch: работаем только с уже скачанными)
     todo = [] if "--no-fetch" in sys.argv else [(k, v) for k, v in items.items() if not os.path.exists(thumb_path(k))]
@@ -203,7 +230,7 @@ def main():
     # 4) теги CLIP: для каждой секции — относительный балл против нейтрального, берём верхнюю долю
     for k in keys:
         items[k]["tags"] = set()
-    for sec in ("art", "photo"):
+    for sec in ("art", "photo", "gen"):
         sk = [k for k in keys if items[k]["section"] == sec]
         print("  секция", sec, len(sk), flush=True)
         if not sk:
@@ -233,8 +260,12 @@ def main():
                             items[k]["tags"].discard(t)
 
     # 5) подсказки из метаданных + тона + сложность
+    known = set(CLIP_TAGS)
     for k in keys:
         it = items[k]
+        if it["section"] == "gen":
+            # у своих картинок сюжет известен точно — теги из запроса надёжнее догадок CLIP
+            it["tags"] |= {t for t in it.get("meta", []) if t in known}
         meta = " | ".join(it.get("meta", []))
         for tag, words in META_HINTS.items():
             if any(w in meta for w in words):
@@ -269,7 +300,8 @@ def main():
     from collections import Counter
     cnt = Counter(t for it in out.values() for t in it["tags"])
     print("kept:", len(out), "art", sum(1 for v in out.values() if v["section"] == "art"),
-          "photo", sum(1 for v in out.values() if v["section"] == "photo"))
+          "photo", sum(1 for v in out.values() if v["section"] == "photo"),
+          "gen", sum(1 for v in out.values() if v["section"] == "gen"))
     print(dict(cnt.most_common()))
 
 
