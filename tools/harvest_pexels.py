@@ -5,7 +5,8 @@
 (хранить у себя нельзя), в игре показываем имя автора и ссылку на Pexels.
 Ключ (бесплатный, https://www.pexels.com/api/) — в переменной окружения PEXELS_API_KEY
 или в файле work/pexels_key.txt (папка work в git не попадает).
-Запуск: tools/.venv/Scripts/python tools/harvest_pexels.py [--pages 3]"""
+Запуск: tools/.venv/Scripts/python tools/harvest_pexels.py [--pages 3] [--vivid]
+  --vivid — вместо тематических запросов яркие: поиск с фильтром Pexels по цвету кадра."""
 import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -43,6 +44,34 @@ QUERIES = [
 ]
 
 
+# Яркие: запрос → цвет, который Pexels должен найти в кадре, → подсказки-теги.
+# Фильтр по цвету отсекает блёклые снимки ещё на стороне Pexels — пёстрых в выдаче
+# заметно больше, чем при одном слове «colorful» в запросе.
+VIVID = [
+    ("tulip field", "red", ["flowers", "spring"]), ("poppy field", "red", ["flowers", "summer"]),
+    ("flowers bouquet", "pink", ["flowers"]), ("sunflowers", "yellow", ["flowers", "summer"]),
+    ("lavender", "violet", ["flowers"]), ("cherry blossom", "pink", ["flowers", "spring"]),
+    ("autumn leaves", "orange", ["autumn"]), ("autumn forest", "orange", ["forest", "autumn"]),
+    ("tropical beach", "turquoise", ["sea", "summer"]), ("lagoon aerial", "turquoise", ["sea"]),
+    ("coral reef fish", "blue", ["sea", "animals"]), ("colorful boats harbor", "blue", ["sea", "city"]),
+    ("hot air balloons", "red", ["sky"]), ("sunset sky", "orange", ["sunset", "sky"]),
+    ("neon street night", "violet", ["city", "night"]), ("neon signs", "pink", ["city", "night"]),
+    ("paper lanterns", "red", ["night"]), ("festival lights", "yellow", ["night"]),
+    ("colorful houses", "yellow", ["city", "street"]), ("colorful street art", "pink", ["city", "street"]),
+    ("colorful umbrellas", "yellow", ["street"]), ("rainbow staircase", "pink", ["architecture"]),
+    ("parrot", "green", ["birds"]), ("macaw", "blue", ["birds"]), ("peacock", "blue", ["birds"]),
+    ("kingfisher", "turquoise", ["birds"]), ("butterfly flower", "orange", ["animals", "flowers"]),
+    ("tree frog", "green", ["animals"]), ("goldfish", "orange", ["animals", "water"]),
+    ("macarons", "pink", ["still_life"]), ("fruit bowl", "orange", ["still_life"]),
+    ("berries", "red", ["still_life"]), ("lemons", "yellow", ["still_life"]),
+    ("spice market", "orange", ["street", "still_life"]), ("candy sweets", "pink", ["still_life"]),
+    ("colorful yarn", "violet", ["cozy", "still_life"]), ("crayons pencils", "yellow", ["still_life"]),
+    ("christmas lights", "red", ["winter", "cozy"]), ("pumpkins", "orange", ["autumn"]),
+    ("northern lights", "green", ["night", "sky"]), ("green rice terraces", "green", ["landscape"]),
+    ("canyon desert", "orange", ["landscape"]), ("blue lake mountains", "blue", ["mountains", "water"]),
+]
+
+
 def key() -> str:
     k = os.environ.get("PEXELS_API_KEY", "").strip()
     if not k:
@@ -55,9 +84,11 @@ def key() -> str:
     return k
 
 
-def search(api_key: str, query: str, page: int) -> dict:
-    url = "https://api.pexels.com/v1/search?" + urllib.parse.urlencode(
-        {"query": query, "per_page": PER_PAGE, "page": page})
+def search(api_key: str, query: str, page: int, color: str = "") -> dict:
+    params = {"query": query, "per_page": PER_PAGE, "page": page}
+    if color:
+        params["color"] = color
+    url = "https://api.pexels.com/v1/search?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": api_key, "User-Agent": "FragmentsPuzzle/0.1"})
     for attempt in range(5):
         try:
@@ -113,10 +144,12 @@ def main() -> None:
     path = os.path.join(WORK, "pexels_raw.json")
     out = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
     started = len(out)
-    for query, hints in QUERIES:
+    vivid = "--vivid" in sys.argv
+    plan = [(q, c, h) for q, c, h in VIVID] if vivid else [(q, "", h) for q, h in QUERIES]
+    for query, color, hints in plan:
         kept = 0
         for page in range(1, pages + 1):
-            data = search(api_key, query, page)
+            data = search(api_key, query, page, color)
             photos = data.get("photos", [])
             if not photos:
                 break
@@ -137,13 +170,15 @@ def main() -> None:
                     "w": w, "h": h, "url": sized(original, FULL), "thumb": sized(original, THUMB),
                     "page": p.get("url", ""), "meta": query.split() + hints, "src": k,
                 }
+                if vivid:
+                    out[k]["vivid"] = True
                 kept += 1
             if data.get("_left", 1000) <= 2:
                 print("часовой лимит почти выбран — останавливаемся", flush=True)
                 json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False)
                 return
             time.sleep(0.4)
-        print("%-28s +%d" % (query, kept), flush=True)
+        print("%-28s +%d" % (query + (" [" + color + "]" if color else ""), kept), flush=True)
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False)
     print("pexels: всего %d (+%d за этот запуск)" % (len(out), len(out) - started))
 
