@@ -1,11 +1,12 @@
 {
  "version": 1,
- "updated": "2026-10-01 18:25",
+ "updated": "2026-10-02 14:01",
  "count": 24954,
  "shard": 200,
  "art": 2141,
  "photo": 21836,
  "gen": 977,
+ "adult": 571,
  "groups": [
   {
    "id": "season",

@@ -115,6 +115,9 @@ def main():
     os.makedirs(os.path.join(FEED, "tags"))
     tag_ids = {t[1]: [] for t in TAGS}
     tag_ids["sec_art"], tag_ids["sec_photo"], tag_ids["sec_gen"] = [], [], []
+    # не для детей (tools/mark_adult.py): служебный список, в шторке тегов его нет —
+    # приложение в детском режиме вычитает его из любой выборки
+    tag_ids["adult"] = []
     shard = []
     for i, k in enumerate(order):
         v = items[k]
@@ -127,6 +130,8 @@ def main():
         for t in v["tags"]:
             if t in tag_ids:
                 tag_ids[t].append(i)
+        if v.get("adult"):
+            tag_ids["adult"].append(i)
         if len(shard) == SHARD:
             json.dump(shard, open(os.path.join(FEED, "items", "%d.json" % (i // SHARD)), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
             shard = []
@@ -145,13 +150,14 @@ def main():
     index = {
         # время в метке: за день лента может пересобираться не раз, и клиент должен это заметить
         "version": 1, "updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), "count": len(order), "shard": SHARD,
-        "art": len(art), "photo": len(photo), "gen": len(gen),
+        "art": len(art), "photo": len(photo), "gen": len(gen), "adult": len(tag_ids["adult"]),
         "groups": [{"id": g, "title": t} for g, t in GROUPS.items()],
         "tags": [{"id": tid, "group": g, "title": [ru, en], "count": len(tag_ids[tid])} for g, tid, ru, en in TAGS if tag_ids[tid]],
         "presets": presets,
     }
     json.dump(index, open(os.path.join(FEED, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("feed:", len(order), "items (art", len(art), "/ photo", len(photo), "/ gen", len(gen), "),", len(presets), "presets")
+    print("feed:", len(order), "items (art", len(art), "/ photo", len(photo), "/ gen", len(gen), "),", len(presets), "presets,",
+          "не для детей", len(tag_ids["adult"]))
     for p in presets:
         print("  ", p["title"][0], p["count"])
 
