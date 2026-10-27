@@ -1,11 +1,7 @@
 {
   "version": 1,
   "games": [
-    {"id": "durak", "package": "com.lumen.durak", "name": ["Дурак без интернета", "Durak Offline"], "sub": ["Подкидной и переводной против ботов", "Classic and transfer Durak vs bots"], "color": "2F7A5B"},
-    {"id": "rasklad", "package": "com.lumen.rasklad", "name": ["Расклад", "Rasklad"], "sub": ["Косынка, Паук и Свободная ячейка", "Klondike, Spider and FreeCell"], "color": "2F7A5B"},
-    {"id": "fragments", "package": "com.lumen.fragments", "name": ["Фрагменты", "Fragments"], "sub": ["Пазлы из картин великих художников", "Jigsaw puzzles of great paintings"], "color": "C4846A"},
-    {"id": "proyavka", "package": "com.lumen.proyavka", "name": ["Проявка", "Proyavka"], "sub": ["Японские кроссворды", "Nonogram puzzles"], "color": "6BA8E8"},
-    {"id": "devyatka", "package": "com.lumen.devyatka", "name": ["Девятка", "Devyatka"], "sub": ["Судоку", "Sudoku"], "color": "9C7FD1"},
-    {"id": "babydiary", "package": "com.lumen.babydiary", "name": ["Дневник малыша", "Baby Diary"], "sub": ["Сон и кормление одним касанием", "Baby sleep and feeding log"], "color": "8E8CC7"}
+    {"id": "durak", "package": "com.lumen.durak", "name": ["Дурак без интернета", "Durak Offline"], "sub": ["Подкидной и переводной против ботов", "Classic and transfer Durak vs bots"], "color": "2F7A5B", "stores": ["rustore"]},
+    {"id": "fragments", "package": "com.lumen.fragments", "name": ["Фрагменты", "Fragments"], "sub": ["Пазлы из картин великих художников", "Jigsaw puzzles of great paintings"], "color": "C4846A", "stores": ["rustore"]}
   ]
 }
