@@ -2,6 +2,8 @@
   "version": 1,
   "games": [
     {"id": "durak", "package": "com.lumen.durak", "name": ["Дурак без интернета", "Durak Offline"], "sub": ["Подкидной и переводной против ботов", "Classic and transfer Durak vs bots"], "color": "2F7A5B", "stores": ["rustore"]},
-    {"id": "fragments", "package": "com.lumen.fragments", "name": ["Фрагменты", "Fragments"], "sub": ["Пазлы из картин великих художников", "Jigsaw puzzles of great paintings"], "color": "C4846A", "stores": ["rustore"]}
+    {"id": "rasklad", "package": "com.lumen.rasklad", "name": ["Расклад", "Rasklad"], "sub": ["Косынка, Паук и Свободная ячейка", "Klondike, Spider and FreeCell"], "color": "2F7A5B", "stores": ["rustore"]},
+    {"id": "fragments", "package": "com.lumen.fragments", "name": ["Фрагменты", "Fragments"], "sub": ["Пазлы из картин великих художников", "Jigsaw puzzles of great paintings"], "color": "C4846A", "stores": ["rustore"]},
+    {"id": "peretasovka", "package": "com.lumen.peretasovka", "name": ["Собери картину", "Piece the Painting"], "sub": ["Пазлы из картин без интернета", "Offline art puzzles"], "color": "28365A", "stores": ["rustore"]}
   ]
 }
