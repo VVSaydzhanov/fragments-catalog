@@ -1,0 +1,845 @@
+{
+ "version": 1,
+ "events": [
+  {
+   "id": "week_2026-11-09",
+   "from": "2026-11-09",
+   "to": "2026-11-15",
+   "title": [
+    "Картины недели: Поздняя осень",
+    "Paintings of the Week: Late Autumn"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_e2d48aecf5",
+     "u": "https://images.pexels.com/photos/34571104/pexels-photo-34571104.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5193,
+     "h": 6657,
+     "t": [
+      "Поздняя осень · фото: Leonardo Merlo",
+      "Late Autumn · photo by Leonardo Merlo"
+     ]
+    },
+    {
+     "k": "f_5e62e2b77e",
+     "u": "https://images.pexels.com/photos/34654856/pexels-photo-34654856.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4344,
+     "h": 7728,
+     "t": [
+      "Поздняя осень · фото: edorm",
+      "Late Autumn · photo by edorm"
+     ]
+    },
+    {
+     "k": "f_0c4b46600c",
+     "u": "https://images.pexels.com/photos/30260701/pexels-photo-30260701.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 8213,
+     "h": 5475,
+     "t": [
+      "Поздняя осень · фото: Krzysztof Jaworski Fotografia Toruń",
+      "Late Autumn · photo by Krzysztof Jaworski Fotografia Toruń"
+     ]
+    },
+    {
+     "k": "f_05be936624",
+     "u": "https://images.pexels.com/photos/35052960/pexels-photo-35052960.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4160,
+     "h": 6240,
+     "t": [
+      "Поздняя осень · фото: Lily Lili",
+      "Late Autumn · photo by Lily Lili"
+     ]
+    },
+    {
+     "k": "f_f7d83c2af3",
+     "u": "https://images.pexels.com/photos/35545964/pexels-photo-35545964.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 6419,
+     "h": 4279,
+     "t": [
+      "Поздняя осень · фото: Rino Adamo",
+      "Late Autumn · photo by Rino Adamo"
+     ]
+    },
+    {
+     "k": "f_a746b5fdfc",
+     "u": "https://images.pexels.com/photos/14791460/pexels-photo-14791460.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5995,
+     "h": 3998,
+     "t": [
+      "Поздняя осень · фото: Mathias Reding",
+      "Late Autumn · photo by Mathias Reding"
+     ]
+    },
+    {
+     "k": "f_0df39d5052",
+     "u": "https://images.pexels.com/photos/34805124/pexels-photo-34805124.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3806,
+     "h": 5709,
+     "t": [
+      "Поздняя осень · фото: Irek Marcinkowski",
+      "Late Autumn · photo by Irek Marcinkowski"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-11-16",
+   "from": "2026-11-16",
+   "to": "2026-11-22",
+   "title": [
+    "Картины недели: Горы",
+    "Paintings of the Week: Mountains"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_93cdedb0d1",
+     "u": "https://images.pexels.com/photos/6731339/pexels-photo-6731339.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5947,
+     "h": 3970,
+     "t": [
+      "Горы · фото: Magic K",
+      "Mountains · photo by Magic K"
+     ]
+    },
+    {
+     "k": "f_4b527e40db",
+     "u": "https://images.pexels.com/photos/17396627/pexels-photo-17396627.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5761,
+     "h": 3841,
+     "t": [
+      "Горы · фото: Chelene F.",
+      "Mountains · photo by Chelene F."
+     ]
+    },
+    {
+     "k": "f_620a3eb43e",
+     "u": "https://images.pexels.com/photos/14714530/pexels-photo-14714530.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3353,
+     "h": 5029,
+     "t": [
+      "Горы · фото: Marek Piwnicki",
+      "Mountains · photo by Marek Piwnicki"
+     ]
+    },
+    {
+     "k": "f_3571400e0a",
+     "u": "https://images.pexels.com/photos/34375661/pexels-photo-34375661.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 2268,
+     "h": 4032,
+     "t": [
+      "Горы · фото: Lindsey Mateo",
+      "Mountains · photo by Lindsey Mateo"
+     ]
+    },
+    {
+     "k": "f_0c1bbeb2e6",
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Pico_de_la_Zarza_-_summit.jpg/1920px-Pico_de_la_Zarza_-_summit.jpg",
+     "w": 4752,
+     "h": 3168,
+     "t": [
+      "Горы · фото: H. Zell",
+      "Mountains · photo by H. Zell"
+     ]
+    },
+    {
+     "k": "f_5dcda3e741",
+     "u": "https://images.pexels.com/photos/30133997/pexels-photo-30133997.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5194,
+     "h": 3463,
+     "t": [
+      "Горы · фото: Harald Pippert",
+      "Mountains · photo by Harald Pippert"
+     ]
+    },
+    {
+     "k": "f_110717699c",
+     "u": "https://images.pexels.com/photos/18315825/pexels-photo-18315825.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3024,
+     "h": 4032,
+     "t": [
+      "Горы · фото: Nisarg Dave",
+      "Mountains · photo by Nisarg Dave"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-11-23",
+   "from": "2026-11-23",
+   "to": "2026-11-29",
+   "title": [
+    "Картины недели: Море",
+    "Paintings of the Week: The Sea"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_fd17246a37",
+     "u": "https://images.pexels.com/photos/14003145/pexels-photo-14003145.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4032,
+     "h": 3024,
+     "t": [
+      "Море · фото: Jheck Punzalan",
+      "The Sea · photo by Jheck Punzalan"
+     ]
+    },
+    {
+     "k": "f_5f36eb6546",
+     "u": "https://images.pexels.com/photos/12831944/pexels-photo-12831944.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 6720,
+     "h": 4480,
+     "t": [
+      "Море · фото: Koen Swiers",
+      "The Sea · photo by Koen Swiers"
+     ]
+    },
+    {
+     "k": "f_0171a6b6b8",
+     "u": "https://images.pexels.com/photos/30971138/pexels-photo-30971138.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Море · фото: Gabriel Victor",
+      "The Sea · photo by Gabriel Victor"
+     ]
+    },
+    {
+     "k": "f_f992c4ad87",
+     "u": "https://images.pexels.com/photos/37120931/pexels-photo-37120931.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3072,
+     "h": 4096,
+     "t": [
+      "Море · фото: Pornsiri Thetchutithamgull",
+      "The Sea · photo by Pornsiri Thetchutithamgull"
+     ]
+    },
+    {
+     "k": "f_96a0300495",
+     "u": "https://images.pexels.com/photos/29501292/pexels-photo-29501292.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3024,
+     "h": 4032,
+     "t": [
+      "Море · фото: Joel Orea",
+      "The Sea · photo by Joel Orea"
+     ]
+    },
+    {
+     "k": "f_d86be896f3",
+     "u": "https://images.pexels.com/photos/5598761/pexels-photo-5598761.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 6240,
+     "h": 4160,
+     "t": [
+      "Море · фото: Peggy Anke",
+      "The Sea · photo by Peggy Anke"
+     ]
+    },
+    {
+     "k": "f_c22429854c",
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sea_Lions_Ushuaia.JPG/1920px-Sea_Lions_Ushuaia.JPG",
+     "w": 3888,
+     "h": 2592,
+     "t": [
+      "Море · фото: Carlos Ponte",
+      "The Sea · photo by Carlos Ponte"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-11-30",
+   "from": "2026-11-30",
+   "to": "2026-12-06",
+   "title": [
+    "Картины недели: Первый снег",
+    "Paintings of the Week: First Snow"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_eab7319fc7",
+     "u": "https://images.pexels.com/photos/11251650/pexels-photo-11251650.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5472,
+     "h": 3648,
+     "t": [
+      "Первый снег · фото: Erik Mclean",
+      "First Snow · photo by Erik Mclean"
+     ]
+    },
+    {
+     "k": "f_eae3d8dbb0",
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Beskid_S%C4%85decki_in_winter_2016_05.jpg/1920px-Beskid_S%C4%85decki_in_winter_2016_05.jpg",
+     "w": 4108,
+     "h": 2739,
+     "t": [
+      "Первый снег · фото: Pudelek",
+      "First Snow · photo by Pudelek"
+     ]
+    },
+    {
+     "k": "f_119ff60645",
+     "u": "https://images.pexels.com/photos/18285074/pexels-photo-18285074.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 2268,
+     "h": 3024,
+     "t": [
+      "Первый снег · фото: @nomundodejr Jr.",
+      "First Snow · photo by @nomundodejr Jr."
+     ]
+    },
+    {
+     "k": "f_e26d85f138",
+     "u": "https://images.pexels.com/photos/11250981/pexels-photo-11250981.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 2777,
+     "h": 4165,
+     "t": [
+      "Первый снег · фото: Jonathan Cooper",
+      "First Snow · photo by Jonathan Cooper"
+     ]
+    },
+    {
+     "k": "f_60b5899dde",
+     "u": "https://images.pexels.com/photos/14340484/pexels-photo-14340484.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Первый снег · фото: Daniil Kondrashin",
+      "First Snow · photo by Daniil Kondrashin"
+     ]
+    },
+    {
+     "k": "f_61e9a2de52",
+     "u": "https://images.pexels.com/photos/11251660/pexels-photo-11251660.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5368,
+     "h": 3579,
+     "t": [
+      "Первый снег · фото: Erik Mclean",
+      "First Snow · photo by Erik Mclean"
+     ]
+    },
+    {
+     "k": "f_17daa0f585",
+     "u": "https://images.pexels.com/photos/6671845/pexels-photo-6671845.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4288,
+     "h": 2848,
+     "t": [
+      "Первый снег · фото: Hert Niks",
+      "First Snow · photo by Hert Niks"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-12-07",
+   "from": "2026-12-07",
+   "to": "2026-12-13",
+   "title": [
+    "Картины недели: Уютные улочки",
+    "Paintings of the Week: Cozy Streets"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_54d571cbec",
+     "u": "https://images.pexels.com/photos/28423571/pexels-photo-28423571.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Уютные улочки · фото: Meike",
+      "Cozy Streets · photo by Meike"
+     ]
+    },
+    {
+     "k": "f_6d02e9bb8a",
+     "u": "https://images.pexels.com/photos/13866439/pexels-photo-13866439.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3333,
+     "h": 5000,
+     "t": [
+      "Уютные улочки · фото: Céline |",
+      "Cozy Streets · photo by Céline |"
+     ]
+    },
+    {
+     "k": "f_b3f61b90a5",
+     "u": "https://images.pexels.com/photos/16449021/pexels-photo-16449021.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3024,
+     "h": 4032,
+     "t": [
+      "Уютные улочки · фото: Kürşat Kuzu",
+      "Cozy Streets · photo by Kürşat Kuzu"
+     ]
+    },
+    {
+     "k": "f_7e16a787f4",
+     "u": "https://images.pexels.com/photos/39490834/pexels-photo-39490834.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 3000,
+     "t": [
+      "Уютные улочки · фото: sidar çiya",
+      "Cozy Streets · photo by sidar çiya"
+     ]
+    },
+    {
+     "k": "f_a9bac87509",
+     "u": "https://images.pexels.com/photos/158637/sicily-italy-texture-city-158637.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 2496,
+     "h": 1664,
+     "t": [
+      "Уютные улочки · фото: Pixabay",
+      "Cozy Streets · photo by Pixabay"
+     ]
+    },
+    {
+     "k": "f_eff9452e70",
+     "u": "https://images.pexels.com/photos/36955849/pexels-photo-36955849.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3000,
+     "h": 4000,
+     "t": [
+      "Уютные улочки · фото: MUSTAFA AHMED",
+      "Cozy Streets · photo by MUSTAFA AHMED"
+     ]
+    },
+    {
+     "k": "f_7488563bff",
+     "u": "https://images.pexels.com/photos/27065820/pexels-photo-27065820.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 2832,
+     "h": 4240,
+     "t": [
+      "Уютные улочки · фото: Omar Ramadan",
+      "Cozy Streets · photo by Omar Ramadan"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-12-14",
+   "from": "2026-12-14",
+   "to": "2026-12-20",
+   "title": [
+    "Картины недели: Звери и птицы",
+    "Paintings of the Week: Animals and Birds"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_b80238660a",
+     "u": "https://images.pexels.com/photos/14116505/pexels-photo-14116505.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4552,
+     "h": 6825,
+     "t": [
+      "Звери и птицы · фото: Valeria Boltneva",
+      "Animals and Birds · photo by Valeria Boltneva"
+     ]
+    },
+    {
+     "k": "f_4fff474c7a",
+     "u": "https://images.pexels.com/photos/11251653/pexels-photo-11251653.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5472,
+     "h": 3648,
+     "t": [
+      "Звери и птицы · фото: Erik Mclean",
+      "Animals and Birds · photo by Erik Mclean"
+     ]
+    },
+    {
+     "k": "f_ad76143bc1",
+     "u": "https://images.pexels.com/photos/28647971/pexels-photo-28647971.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Звери и птицы · фото: Anurag Jamwal",
+      "Animals and Birds · photo by Anurag Jamwal"
+     ]
+    },
+    {
+     "k": "f_b2749ab23e",
+     "u": "https://images.pexels.com/photos/34470258/pexels-photo-34470258.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4727,
+     "h": 3099,
+     "t": [
+      "Звери и птицы · фото: Natalia Sevruk",
+      "Animals and Birds · photo by Natalia Sevruk"
+     ]
+    },
+    {
+     "k": "f_912113d8de",
+     "u": "https://images.pexels.com/photos/34713957/pexels-photo-34713957.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4096,
+     "h": 3072,
+     "t": [
+      "Звери и птицы · фото: Krisztina - Csilla Kiss",
+      "Animals and Birds · photo by Krisztina - Csilla Kiss"
+     ]
+    },
+    {
+     "k": "f_9fa9933196",
+     "u": "https://images.pexels.com/photos/28270878/pexels-photo-28270878.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3725,
+     "h": 3541,
+     "t": [
+      "Звери и птицы · фото: NaturEye Conservation",
+      "Animals and Birds · photo by NaturEye Conservation"
+     ]
+    },
+    {
+     "k": "f_3007a98ba6",
+     "u": "https://images.pexels.com/photos/6471471/pexels-photo-6471471.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5017,
+     "h": 3336,
+     "t": [
+      "Звери и птицы · фото: Erik Izsóf",
+      "Animals and Birds · photo by Erik Izsóf"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-12-21",
+   "from": "2026-12-21",
+   "to": "2026-12-27",
+   "title": [
+    "Картины недели: Цветы",
+    "Paintings of the Week: Flowers"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_b8c125d36f",
+     "u": "https://images.pexels.com/photos/1039127/pexels-photo-1039127.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 6000,
+     "h": 4000,
+     "t": [
+      "Цветы · фото: Felix Mittermeier",
+      "Flowers · photo by Felix Mittermeier"
+     ]
+    },
+    {
+     "k": "f_20ed491cdc",
+     "u": "https://images.pexels.com/photos/37748554/pexels-photo-37748554.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3072,
+     "h": 4080,
+     "t": [
+      "Цветы · фото: Jonathan Trbic",
+      "Flowers · photo by Jonathan Trbic"
+     ]
+    },
+    {
+     "k": "f_26492f51d6",
+     "u": "https://images.pexels.com/photos/27400950/pexels-photo-27400950.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 6000,
+     "h": 4000,
+     "t": [
+      "Цветы · фото: Ant Armada",
+      "Flowers · photo by Ant Armada"
+     ]
+    },
+    {
+     "k": "f_f8c583d73e",
+     "u": "https://images.pexels.com/photos/27578153/pexels-photo-27578153.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Цветы · фото: Melike B",
+      "Flowers · photo by Melike B"
+     ]
+    },
+    {
+     "k": "f_f6299825ce",
+     "u": "https://images.pexels.com/photos/31515736/pexels-photo-31515736.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Цветы · фото: Arlind D",
+      "Flowers · photo by Arlind D"
+     ]
+    },
+    {
+     "k": "f_2cb958bb13",
+     "u": "https://images.pexels.com/photos/16768760/pexels-photo-16768760.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4160,
+     "h": 6240,
+     "t": [
+      "Цветы · фото: Yasemin Gunes",
+      "Flowers · photo by Yasemin Gunes"
+     ]
+    },
+    {
+     "k": "f_afc03939f6",
+     "u": "https://images.pexels.com/photos/8910561/pexels-photo-8910561.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3456,
+     "h": 4608,
+     "t": [
+      "Цветы · фото: Rockwell branding agency",
+      "Flowers · photo by Rockwell branding agency"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2026-12-28",
+   "from": "2026-12-28",
+   "to": "2027-01-03",
+   "title": [
+    "Картины недели: Новый год",
+    "Paintings of the Week: New Year"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_3cf06bd720",
+     "u": "https://images.pexels.com/photos/35572808/pexels-photo-35572808.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Новый год · фото: Sergej *****",
+      "New Year · photo by Sergej *****"
+     ]
+    },
+    {
+     "k": "f_6c9cbd251f",
+     "u": "https://images.pexels.com/photos/15489273/pexels-photo-15489273.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5464,
+     "h": 8192,
+     "t": [
+      "Новый год · фото: Valeria Boltneva",
+      "New Year · photo by Valeria Boltneva"
+     ]
+    },
+    {
+     "k": "f_2ccf5879d8",
+     "u": "https://images.pexels.com/photos/19712652/pexels-photo-19712652.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Новый год · фото: CRIS G",
+      "New Year · photo by CRIS G"
+     ]
+    },
+    {
+     "k": "f_4632d9cbf5",
+     "u": "https://images.pexels.com/photos/29700104/pexels-photo-29700104.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 2800,
+     "h": 3500,
+     "t": [
+      "Новый год · фото: Masood Aslami",
+      "New Year · photo by Masood Aslami"
+     ]
+    },
+    {
+     "k": "f_c1b974842d",
+     "u": "https://images.pexels.com/photos/30038694/pexels-photo-30038694.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4078,
+     "h": 6117,
+     "t": [
+      "Новый год · фото: Ferat Söylemez",
+      "New Year · photo by Ferat Söylemez"
+     ]
+    },
+    {
+     "k": "f_1c44675063",
+     "u": "https://images.pexels.com/photos/19641027/pexels-photo-19641027.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 5152,
+     "h": 7724,
+     "t": [
+      "Новый год · фото: Valeria Boltneva",
+      "New Year · photo by Valeria Boltneva"
+     ]
+    },
+    {
+     "k": "f_597569eaea",
+     "u": "https://images.pexels.com/photos/35225641/pexels-photo-35225641.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3988,
+     "h": 5982,
+     "t": [
+      "Новый год · фото: Beth Fitzpatrick",
+      "New Year · photo by Beth Fitzpatrick"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2027-01-04",
+   "from": "2027-01-04",
+   "to": "2027-01-10",
+   "title": [
+    "Картины недели: Закаты",
+    "Paintings of the Week: Sunsets"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_adb885bbb0",
+     "u": "https://images.pexels.com/photos/12906070/pexels-photo-12906070.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 1896,
+     "h": 2528,
+     "t": [
+      "Закаты · фото: Marino",
+      "Sunsets · photo by Marino"
+     ]
+    },
+    {
+     "k": "f_2f535ef974",
+     "u": "https://images.pexels.com/photos/36866161/pexels-photo-36866161.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3000,
+     "h": 4000,
+     "t": [
+      "Закаты · фото: Frederick Lobban",
+      "Sunsets · photo by Frederick Lobban"
+     ]
+    },
+    {
+     "k": "f_b5a4434aa4",
+     "u": "https://images.pexels.com/photos/19996190/pexels-photo-19996190.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4858,
+     "h": 3239,
+     "t": [
+      "Закаты · фото: Masood Aslami",
+      "Sunsets · photo by Masood Aslami"
+     ]
+    },
+    {
+     "k": "f_09f67347fe",
+     "u": "https://images.pexels.com/photos/4784194/pexels-photo-4784194.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 7500,
+     "h": 6000,
+     "t": [
+      "Закаты · фото: Jess Loiterton",
+      "Sunsets · photo by Jess Loiterton"
+     ]
+    },
+    {
+     "k": "f_15f0e45b4a",
+     "u": "https://images.pexels.com/photos/33629186/pexels-photo-33629186.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4480,
+     "h": 6720,
+     "t": [
+      "Закаты · фото: PhotoByMau PhotoByMau",
+      "Sunsets · photo by PhotoByMau PhotoByMau"
+     ]
+    },
+    {
+     "k": "f_2efb40e41f",
+     "u": "https://images.pexels.com/photos/27402905/pexels-photo-27402905.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Закаты · фото: Lera Mk",
+      "Sunsets · photo by Lera Mk"
+     ]
+    },
+    {
+     "k": "f_03b5608e6c",
+     "u": "https://images.pexels.com/photos/7878925/pexels-photo-7878925.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4521,
+     "h": 3014,
+     "t": [
+      "Закаты · фото: Paul Buijs",
+      "Sunsets · photo by Paul Buijs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "week_2027-01-11",
+   "from": "2027-01-11",
+   "to": "2027-01-17",
+   "title": [
+    "Картины недели: Натюрморты",
+    "Paintings of the Week: Still Lifes"
+   ],
+   "cards": 28,
+   "frame": "",
+   "weekly": true,
+   "pictures": [
+    {
+     "k": "f_1897318f0b",
+     "u": "https://images.pexels.com/photos/38706760/pexels-photo-38706760.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3824,
+     "h": 5736,
+     "t": [
+      "Натюрморты · фото: Gizem Gökce",
+      "Still Lifes · photo by Gizem Gökce"
+     ]
+    },
+    {
+     "k": "f_1fe1547608",
+     "u": "https://images.pexels.com/photos/6927631/pexels-photo-6927631.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4899,
+     "h": 3266,
+     "t": [
+      "Натюрморты · фото: Zizi zi",
+      "Still Lifes · photo by Zizi zi"
+     ]
+    },
+    {
+     "k": "f_5d566aab6c",
+     "u": "https://images.pexels.com/photos/29567866/pexels-photo-29567866.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3368,
+     "h": 6000,
+     "t": [
+      "Натюрморты · фото: Feyza Daştan",
+      "Still Lifes · photo by Feyza Daştan"
+     ]
+    },
+    {
+     "k": "f_3b74a99000",
+     "u": "https://images.pexels.com/photos/38178604/pexels-photo-38178604.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4048,
+     "h": 6071,
+     "t": [
+      "Натюрморты · фото: Melike",
+      "Still Lifes · photo by Melike"
+     ]
+    },
+    {
+     "k": "f_6cedc50530",
+     "u": "https://images.pexels.com/photos/27771224/pexels-photo-27771224.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 3024,
+     "h": 4032,
+     "t": [
+      "Натюрморты · фото: Pozytywny Wolumin",
+      "Still Lifes · photo by Pozytywny Wolumin"
+     ]
+    },
+    {
+     "k": "f_2ae6d5b8ed",
+     "u": "https://images.pexels.com/photos/1652312/pexels-photo-1652312.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 12234,
+     "h": 8156,
+     "t": [
+      "Натюрморты · фото: Jane T D.",
+      "Still Lifes · photo by Jane T D."
+     ]
+    },
+    {
+     "k": "f_be0944439e",
+     "u": "https://images.pexels.com/photos/7936974/pexels-photo-7936974.jpeg?auto=compress&cs=tinysrgb&fit=clip&w=1600&h=1600",
+     "w": 4000,
+     "h": 6000,
+     "t": [
+      "Натюрморты · фото: Nicola Barts",
+      "Still Lifes · photo by Nicola Barts"
+     ]
+    }
+   ]
+  }
+ ]
+}
