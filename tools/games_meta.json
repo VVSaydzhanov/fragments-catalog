@@ -1,7 +1,8 @@
 {
   "games": [
     {"id": "durak", "package": "com.lumen.durak", "name": ["Дурак без интернета", "Durak Offline"], "sub": ["Подкидной и переводной против ботов", "Classic and transfer Durak vs bots"], "color": "2F7A5B"},
-    {"id": "rasklad", "package": "com.lumen.rasklad", "name": ["Расклад", "Rasklad"], "sub": ["Косынка, Паук и Свободная ячейка", "Klondike, Spider and FreeCell"], "color": "2F7A5B"},
+    {"id": "nardy", "package": "com.lumen.nardy", "name": ["Нарды без интернета", "Backgammon Offline"], "sub": ["Длинные и короткие, честные кости", "Long and short nardy, fair dice"], "color": "8B5A2B"},
+    {"id": "rasklad", "package": "com.lumen.rasklad", "name": ["Пасьянс Косынка", "Klondike Solitaire"], "sub": ["Косынка, Паук и Свободная ячейка", "Klondike, Spider and FreeCell"], "color": "2F7A5B"},
     {"id": "fragments", "package": "com.lumen.fragments", "name": ["Фрагменты", "Fragments"], "sub": ["Пазлы из картин великих художников", "Jigsaw puzzles of great paintings"], "color": "C4846A"},
     {"id": "peretasovka", "package": "com.lumen.peretasovka", "name": ["Собери картину", "Piece the Painting"], "sub": ["Пазлы из картин без интернета", "Offline art puzzles"], "color": "28365A"},
     {"id": "proyavka", "package": "com.lumen.proyavka", "name": ["Проявка", "Proyavka"], "sub": ["Японские кроссворды", "Nonogram puzzles"], "color": "6BA8E8"},
