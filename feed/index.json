@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updated": "2026-10-02 14:01",
- "count": 24954,
+ "updated": "2026-11-10 12:00",
+ "count": 25780,
  "shard": 200,
- "art": 2141,
+ "art": 2967,
  "photo": 21836,
  "gen": 977,
- "adult": 571,
+ "adult": 598,
  "groups": [
   {
    "id": "season",
@@ -59,7 +59,7 @@
     "Весна",
     "Spring"
    ],
-   "count": 2001
+   "count": 1890
   },
   {
    "id": "summer",
@@ -68,7 +68,7 @@
     "Лето",
     "Summer"
    ],
-   "count": 3338
+   "count": 3349
   },
   {
    "id": "autumn",
@@ -77,7 +77,7 @@
     "Осень",
     "Autumn"
    ],
-   "count": 2719
+   "count": 2710
   },
   {
    "id": "winter",
@@ -86,7 +86,7 @@
     "Зима",
     "Winter"
    ],
-   "count": 2523
+   "count": 2453
   },
   {
    "id": "morning",
@@ -95,7 +95,7 @@
     "Утро",
     "Morning"
    ],
-   "count": 1044
+   "count": 1014
   },
   {
    "id": "day",
@@ -104,7 +104,7 @@
     "День",
     "Day"
    ],
-   "count": 3804
+   "count": 3760
   },
   {
    "id": "sunset",
@@ -113,7 +113,7 @@
     "Закат",
     "Sunset"
    ],
-   "count": 542
+   "count": 541
   },
   {
    "id": "evening",
@@ -122,7 +122,7 @@
     "Вечер",
     "Evening"
    ],
-   "count": 937
+   "count": 872
   },
   {
    "id": "night",
@@ -131,7 +131,7 @@
     "Ночь",
     "Night"
    ],
-   "count": 2013
+   "count": 2001
   },
   {
    "id": "sunny",
@@ -140,7 +140,7 @@
     "Солнечно",
     "Sunny"
    ],
-   "count": 3504
+   "count": 3536
   },
   {
    "id": "fog",
@@ -149,7 +149,7 @@
     "Туман",
     "Fog"
    ],
-   "count": 782
+   "count": 767
   },
   {
    "id": "rain",
@@ -158,7 +158,7 @@
     "Дождь",
     "Rain"
    ],
-   "count": 1173
+   "count": 1165
   },
   {
    "id": "snow",
@@ -167,7 +167,7 @@
     "Снег",
     "Snow"
    ],
-   "count": 1700
+   "count": 1582
   },
   {
    "id": "storm",
@@ -176,7 +176,7 @@
     "Шторм",
     "Storm"
    ],
-   "count": 250
+   "count": 240
   },
   {
    "id": "cozy",
@@ -185,7 +185,7 @@
     "Уютно",
     "Cozy"
    ],
-   "count": 2054
+   "count": 2158
   },
   {
    "id": "calm",
@@ -194,7 +194,7 @@
     "Спокойно",
     "Calm"
    ],
-   "count": 3287
+   "count": 3256
   },
   {
    "id": "landscape",
@@ -203,7 +203,7 @@
     "Пейзаж",
     "Landscape"
    ],
-   "count": 7270
+   "count": 6930
   },
   {
    "id": "city",
@@ -212,7 +212,7 @@
     "Город",
     "City"
    ],
-   "count": 4767
+   "count": 4648
   },
   {
    "id": "street",
@@ -221,7 +221,7 @@
     "Улицы",
     "Streets"
    ],
-   "count": 3463
+   "count": 3431
   },
   {
    "id": "architecture",
@@ -230,7 +230,7 @@
     "Архитектура",
     "Architecture"
    ],
-   "count": 2421
+   "count": 2290
   },
   {
    "id": "sea",
@@ -239,7 +239,7 @@
     "Море",
     "Sea"
    ],
-   "count": 2424
+   "count": 2201
   },
   {
    "id": "mountains",
@@ -248,7 +248,7 @@
     "Горы",
     "Mountains"
    ],
-   "count": 2773
+   "count": 2648
   },
   {
    "id": "forest",
@@ -257,7 +257,7 @@
     "Лес",
     "Forest"
    ],
-   "count": 3292
+   "count": 3088
   },
   {
    "id": "water",
@@ -266,7 +266,7 @@
     "Реки и озёра",
     "Rivers & lakes"
    ],
-   "count": 3129
+   "count": 2967
   },
   {
    "id": "flowers",
@@ -275,7 +275,7 @@
     "Цветы",
     "Flowers"
    ],
-   "count": 3516
+   "count": 3353
   },
   {
    "id": "animals",
@@ -284,7 +284,7 @@
     "Животные",
     "Animals"
    ],
-   "count": 4497
+   "count": 4334
   },
   {
    "id": "birds",
@@ -293,7 +293,7 @@
     "Птицы",
     "Birds"
    ],
-   "count": 1779
+   "count": 1736
   },
   {
    "id": "sky",
@@ -302,7 +302,7 @@
     "Небо",
     "Sky"
    ],
-   "count": 842
+   "count": 851
   },
   {
    "id": "still_life",
@@ -311,7 +311,7 @@
     "Натюрморт",
     "Still life"
    ],
-   "count": 1606
+   "count": 1569
   },
   {
    "id": "space",
@@ -320,7 +320,7 @@
     "Космос",
     "Space"
    ],
-   "count": 144
+   "count": 157
   },
   {
    "id": "warm",
@@ -329,7 +329,7 @@
     "Тёплые тона",
     "Warm tones"
    ],
-   "count": 13914
+   "count": 14749
   },
   {
    "id": "cold",
@@ -338,7 +338,7 @@
     "Холодные тона",
     "Cool tones"
    ],
-   "count": 3342
+   "count": 3367
   },
   {
    "id": "bright",
@@ -347,7 +347,7 @@
     "Яркие",
     "Vivid"
    ],
-   "count": 4524
+   "count": 4556
   },
   {
    "id": "pastel",
@@ -356,7 +356,7 @@
     "Пастель",
     "Pastel"
    ],
-   "count": 1818
+   "count": 1324
   },
   {
    "id": "dark",
@@ -365,7 +365,7 @@
     "Тёмные",
     "Dark"
    ],
-   "count": 2894
+   "count": 3654
   },
   {
    "id": "easy",
@@ -374,7 +374,7 @@
     "Лёгкие",
     "Easy"
    ],
-   "count": 9838
+   "count": 10114
   },
   {
    "id": "medium",
@@ -383,7 +383,7 @@
     "Средние",
     "Medium"
    ],
-   "count": 9798
+   "count": 10078
   },
   {
    "id": "hard",
@@ -392,7 +392,7 @@
     "Сложные",
     "Hard"
    ],
-   "count": 5318
+   "count": 5588
   }
  ],
  "presets": [
@@ -406,7 +406,7 @@
     "winter",
     "evening"
    ],
-   "count": 150
+   "count": 130
   },
   {
    "id": "warm_autumn",
@@ -418,7 +418,7 @@
     "autumn",
     "sunny"
    ],
-   "count": 415
+   "count": 416
   },
   {
    "id": "sea_breeze",
@@ -430,7 +430,7 @@
     "sea",
     "sunny"
    ],
-   "count": 555
+   "count": 546
   },
   {
    "id": "night_city",
@@ -442,7 +442,7 @@
     "city",
     "night"
    ],
-   "count": 1205
+   "count": 1200
   },
   {
    "id": "rainy_streets",
@@ -454,7 +454,7 @@
     "street",
     "rain"
    ],
-   "count": 776
+   "count": 775
   },
   {
    "id": "spring_flowers",
@@ -466,7 +466,7 @@
     "spring",
     "flowers"
    ],
-   "count": 1410
+   "count": 1339
   },
   {
    "id": "misty",
@@ -477,7 +477,7 @@
    "tags": [
     "fog"
    ],
-   "count": 782
+   "count": 767
   },
   {
    "id": "cozy",
@@ -488,7 +488,7 @@
    "tags": [
     "cozy"
    ],
-   "count": 2054
+   "count": 2158
   },
   {
    "id": "mountains_snow",
@@ -500,7 +500,7 @@
     "mountains",
     "winter"
    ],
-   "count": 633
+   "count": 611
   },
   {
    "id": "easy",
@@ -511,7 +511,7 @@
    "tags": [
     "easy"
    ],
-   "count": 9838
+   "count": 10114
   }
  ]
 }
